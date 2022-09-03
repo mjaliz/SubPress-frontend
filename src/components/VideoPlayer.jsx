@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Grid, Typography } from "@mui/material";
+import { Grid, Typography, Slide } from "@mui/material";
 
 import "./VideoPlayer.css";
 import subtitleFile from "../subWithWords.json";
@@ -13,15 +13,18 @@ function VideoPlayer({ src }) {
   const [videoElement, setVideoElement] = useState(null);
   const [trackElement, setTrackElement] = useState(null);
   const [subtitleId, setSubtitleId] = useState(null);
+  const [subtitlesContainer, setSubtitleContainer] = useState(null);
   const [selectedSentence, setSelectedSentence] = useState([]);
   const [videoWorks, setVideoWorks] = useState(null);
 
   const videoRef = useRef(null);
   const trackRef = useRef(null);
+  const subtitlesRef = useRef(null);
 
   useEffect(() => {
     setVideoElement(videoRef.current);
     setTrackElement(trackRef.current);
+    setSubtitleContainer(subtitlesRef.current);
     setVideoWorks(!!document.createElement("video").canPlayType);
   }, []);
 
@@ -34,15 +37,11 @@ function VideoPlayer({ src }) {
       let cues = event.target.track.activeCues;
       if (cues.length === 1) {
         setSubtitleId(cues["0"].id);
+        moveElement();
       }
     });
 
   const togglePaly = () => {
-    // if (videoElement.paused || videoElement.ended) {
-    //   videoElement.play();
-    // } else {
-    //   videoElement.pause();
-    // }
     videoElement.pause();
   };
 
@@ -56,6 +55,11 @@ function VideoPlayer({ src }) {
     togglePaly();
   };
 
+  const moveElement = () => {
+    subtitlesContainer.style.top =
+      parseInt(getComputedStyle(subtitlesContainer).top) - 52 + "px";
+  };
+
   return (
     <>
       <Grid
@@ -64,8 +68,10 @@ function VideoPlayer({ src }) {
         justifyContent="center"
         alignItems="center"
         justifyItems="center"
+        position="fixed"
+        top="0"
       >
-        <Grid item>
+        <Grid item height="280px">
           <video
             ref={videoRef}
             id="video"
@@ -73,6 +79,7 @@ function VideoPlayer({ src }) {
             preload="metadata"
             poster="poster.jpg"
             width="100%"
+            height="100%"
           >
             <source src={src} type="video/mp4" />
 
@@ -101,7 +108,7 @@ function VideoPlayer({ src }) {
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
                   <Grid item>
                     <Typography
-                      variant="h5"
+                      variant="h6"
                       sx={{ cursor: "pointer", color: "#ffffff" }}
                       key={index}
                       onClick={() => handleSubtitleClick(word[0], subtitleId)}
@@ -112,61 +119,41 @@ function VideoPlayer({ src }) {
                 ))}
               </Grid>
               <Grid item padding={2} pt={0}>
-                <Typography variant="h5" color="#faeaa9" align="center">
+                <Typography variant="h6" color="#faeaa9" align="center">
                   {subtitlesFa[subtitleId - 1].text}
                 </Typography>
               </Grid>
             </Grid>
           )}
         </Grid>
-        {/* {selectedSentence.length !== 0 && (
-          <Grid
-            container
-            direction="column"
-            spacing={1}
-            justifyContent="center"
-            alignItems="center"
-            mt={3}
-          > */}
-        {/* {selectedSentence.map((sentence, index) => (
-              <Grid item> */}
-        {/* <Card key={index} sx={{ padding: 1, width: "100%" }}> */}
-        {/* <Grid container direction="row" spacing={0.5}>
-                  {subtitles[sentence.id - 1]["word_tag"].map((word, index) => (
-                    <Grid item key={index}>
-                      <Typography
-                        variant="h6"
-                        color={`${
-                          sentence.word === word[0] ? "#faeaa9" : "#7b797c"
-                        }`}
-                      >
-                        {word[0]}
-                      </Typography>
-                    </Grid>
-                  ))}
-                </Grid> */}
-        {/* </Card> */}
-        {/* </Grid>
-            ))} */}
-        {/* </Grid> */}
-        {/* )} */}
-        <Grid item>
-          <Grid container direction="column" mt={2} spacing={2.5}>
-            {subtitles
-              .slice(subtitleId, subtitles.length)
-              .map((subtitle, index) => (
-                <Grid item key={index} justifyItems="center">
-                  <Typography
-                    key={index}
-                    variant="h6"
-                    sx={{ color: "#7b797c" }}
-                    align="center"
-                  >
-                    {subtitle.text}
-                  </Typography>
-                </Grid>
-              ))}
-          </Grid>
+      </Grid>
+      <Grid item mt="380px">
+        <Grid
+          ref={subtitlesRef}
+          container
+          direction="column"
+          mt={2}
+          spacing={2.5}
+          sx={{
+            position: "absolute",
+            transition: "all .5s ease-in-out",
+            zIndex: "-1",
+          }}
+        >
+          {subtitles
+            // .slice(subtitleId, subtitles.length)
+            .map((subtitle, index) => (
+              <Grid item key={index} justifyItems="center">
+                <Typography
+                  key={index}
+                  variant="h6"
+                  sx={{ color: "#7b797c" }}
+                  align="center"
+                >
+                  {subtitle.text}
+                </Typography>
+              </Grid>
+            ))}
         </Grid>
       </Grid>
     </>
