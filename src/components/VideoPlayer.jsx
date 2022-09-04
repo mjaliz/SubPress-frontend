@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Grid, Typography, Slide } from "@mui/material";
+import React, { useEffect, useState, useRef, createRef } from "react";
 
 import "./VideoPlayer.css";
+import "../main.css";
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 // import PlayerControls from "./PlayerControls";
@@ -13,18 +13,32 @@ function VideoPlayer({ src }) {
   const [videoElement, setVideoElement] = useState(null);
   const [trackElement, setTrackElement] = useState(null);
   const [subtitleId, setSubtitleId] = useState(null);
-  const [subtitlesContainer, setSubtitleContainer] = useState(null);
   const [selectedSentence, setSelectedSentence] = useState([]);
   const [videoWorks, setVideoWorks] = useState(null);
+
+  console.log("renderrrr");
 
   const videoRef = useRef(null);
   const trackRef = useRef(null);
   const subtitlesRef = useRef(null);
+  const scrollRefs = useRef([]);
+
+  scrollRefs.current = [...Array(subtitles.length).keys()].map(
+    (_, i) => scrollRefs.current[i] ?? createRef()
+  );
+
+  const scrollSmoothHandler = (index) => {
+    const element = scrollRefs.current[index].current;
+    const yOffset = -410;
+    const y =
+      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
 
   useEffect(() => {
     setVideoElement(videoRef.current);
     setTrackElement(trackRef.current);
-    setSubtitleContainer(subtitlesRef.current);
     setVideoWorks(!!document.createElement("video").canPlayType);
   }, []);
 
@@ -36,8 +50,9 @@ function VideoPlayer({ src }) {
     trackElement.addEventListener("cuechange", (event) => {
       let cues = event.target.track.activeCues;
       if (cues.length === 1) {
-        setSubtitleId(cues["0"].id);
-        moveElement();
+        const id = parseInt(cues["0"].id);
+        setSubtitleId(id);
+        if (id > 1) scrollSmoothHandler(id - 2);
       }
     });
 
@@ -55,23 +70,10 @@ function VideoPlayer({ src }) {
     togglePaly();
   };
 
-  const moveElement = () => {
-    subtitlesContainer.style.top =
-      parseInt(getComputedStyle(subtitlesContainer).top) - 52 + "px";
-  };
-
   return (
     <>
-      <Grid
-        container
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-        justifyItems="center"
-        position="fixed"
-        top="0"
-      >
-        <Grid item height="280px">
+      <div>
+        <div>
           <video
             ref={videoRef}
             id="video"
@@ -91,71 +93,42 @@ function VideoPlayer({ src }) {
               default
             />
           </video>
-        </Grid>
-        <Grid
-          item
-          sx={{ width: "100%", minHeight: "80px", backgroundColor: "#1a151b" }}
-        >
+        </div>
+        <div className="bg-bg-dark1">
           {subtitleId && (
-            <Grid container direction="column">
-              <Grid
-                container
-                direction="row"
-                spacing={0.5}
-                justifyContent="center"
-                padding={2}
-              >
+            <div>
+              <div>
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
-                  <Grid item>
-                    <Typography
-                      variant="h6"
-                      sx={{ cursor: "pointer", color: "#ffffff" }}
+                  <div>
+                    <p
                       key={index}
                       onClick={() => handleSubtitleClick(word[0], subtitleId)}
                     >
                       {word[0]}
-                    </Typography>
-                  </Grid>
+                    </p>
+                  </div>
                 ))}
-              </Grid>
-              <Grid item padding={2} pt={0}>
-                <Typography variant="h6" color="#faeaa9" align="center">
+              </div>
+              <div>
+                <p className="text-text-gold">
                   {subtitlesFa[subtitleId - 1].text}
-                </Typography>
-              </Grid>
-            </Grid>
+                </p>
+              </div>
+            </div>
           )}
-        </Grid>
-      </Grid>
-      <Grid item mt="380px">
-        <Grid
-          ref={subtitlesRef}
-          container
-          direction="column"
-          mt={2}
-          spacing={2.5}
-          sx={{
-            position: "absolute",
-            transition: "all .5s ease-in-out",
-            zIndex: "-1",
-          }}
-        >
-          {subtitles
-            // .slice(subtitleId, subtitles.length)
-            .map((subtitle, index) => (
-              <Grid item key={index} justifyItems="center">
-                <Typography
-                  key={index}
-                  variant="h6"
-                  sx={{ color: "#7b797c" }}
-                  align="center"
-                >
-                  {subtitle.text}
-                </Typography>
-              </Grid>
-            ))}
-        </Grid>
-      </Grid>
+        </div>
+      </div>
+      <div className="bg-bg-dark2">
+        <div ref={subtitlesRef}>
+          {subtitles.map((subtitle, index) => (
+            <div key={index} ref={scrollRefs.current[index]}>
+              <p className="text-text-gray" key={index}>
+                {subtitle.text}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
