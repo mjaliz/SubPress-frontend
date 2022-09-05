@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "duration": 2954,
+        "startTime": 18.768,
+        "duration": 2262,
         "text": "I'm Eep. Of the Croods clan.",
         "word_tag": [
             [
@@ -44,7 +45,8 @@
     },
     {
         "id": 2,
-        "duration": 1000,
+        "startTime": 24.983,
+        "duration": 115,
         "text": "Gotcha!",
         "word_tag": [
             [
@@ -59,7 +61,8 @@
     },
     {
         "id": 3,
-        "duration": 1975,
+        "startTime": 28.778,
+        "duration": 1274,
         "text": "And I'm on the hunt.",
         "word_tag": [
             [
@@ -94,7 +97,8 @@
     },
     {
         "id": 4,
-        "duration": 1035,
+        "startTime": 31.073,
+        "duration": 969,
         "text": "But not for food.",
         "word_tag": [
             [
@@ -121,7 +125,8 @@
     },
     {
         "id": 5,
-        "duration": 2013,
+        "startTime": 32.448,
+        "duration": 1609,
         "text": "That's old Eep. I'm new Eep.",
         "word_tag": [
             [
@@ -168,7 +173,8 @@
     },
     {
         "id": 6,
-        "duration": 1029,
+        "startTime": 38.287,
+        "duration": 770,
         "text": "Whoo!",
         "word_tag": [
             [
@@ -183,7 +189,8 @@
     },
     {
         "id": 7,
-        "duration": 1000,
+        "startTime": 43.71,
+        "duration": 361,
         "text": "Ha!",
         "word_tag": [
             [
@@ -198,7 +205,8 @@
     },
     {
         "id": 8,
-        "duration": 2063,
+        "startTime": 48.048,
+        "duration": 2019,
         "text": "And new Eep just needs a pen.",
         "word_tag": [
             [
@@ -237,7 +245,8 @@
     },
     {
         "id": 9,
-        "duration": 1022,
+        "startTime": 83.542,
+        "duration": 534,
         "text": "\u2010 Dear Bark Journal,",
         "word_tag": [
             [
@@ -264,7 +273,8 @@
     },
     {
         "id": 10,
-        "duration": 2006,
+        "startTime": 84.793,
+        "duration": 1292,
         "text": "so what put the new in new me?",
         "word_tag": [
             [
@@ -307,7 +317,8 @@
     },
     {
         "id": 11,
-        "duration": 2936,
+        "startTime": 86.879,
+        "duration": 2144,
         "text": "I'm glad I asked myself that question.",
         "word_tag": [
             [
@@ -350,7 +361,8 @@
     },
     {
         "id": 12,
-        "duration": 1031,
+        "startTime": 89.256,
+        "duration": 800,
         "text": "I was walking with my family,",
         "word_tag": [
             [
@@ -385,7 +397,8 @@
     },
     {
         "id": 13,
-        "duration": 1964,
+        "startTime": 90.591,
+        "duration": 1432,
         "text": "my dad Grug, my mom Ugga,",
         "word_tag": [
             [
@@ -424,7 +437,8 @@
     },
     {
         "id": 14,
-        "duration": 1997,
+        "startTime": 92.26,
+        "duration": 1763,
         "text": "my little brother Thunk, my little sister Sandy,",
         "word_tag": [
             [
@@ -471,7 +485,8 @@
     },
     {
         "id": 15,
-        "duration": 1977,
+        "startTime": 94.26,
+        "duration": 1743,
         "text": "my gran Gran, and Guy,",
         "word_tag": [
             [
@@ -506,7 +521,8 @@
     },
     {
         "id": 16,
-        "duration": 3031,
+        "startTime": 96.054,
+        "duration": 2982,
         "text": "as in my guy, the guy of my dreams but real.",
         "word_tag": [
             [
@@ -565,7 +581,8 @@
     },
     {
         "id": 17,
-        "duration": 1001,
+        "startTime": 99.39,
+        "duration": 650,
         "text": "And we hit a wall.",
         "word_tag": [
             [
@@ -596,7 +613,8 @@
     },
     {
         "id": 18,
-        "duration": 1044,
+        "startTime": 100.433,
+        "duration": 654,
         "text": "So, of course, Dad smashed through it.",
         "word_tag": [
             [
@@ -643,7 +661,8 @@
     },
     {
         "id": 19,
-        "duration": 1944,
+        "startTime": 101.894,
+        "duration": 1139,
         "text": "And there was a farm and a tree house.",
         "word_tag": [
             [
@@ -690,7 +709,8 @@
     },
     {
         "id": 20,
-        "duration": 2977,
+        "startTime": 103.354,
+        "duration": 2658,
         "text": "And a family, the Bettermans, Phil, Hope and their daughter Dawn.",
         "word_tag": [
             [
@@ -757,7 +777,8 @@
     },
     {
         "id": 21,
-        "duration": 2053,
+        "startTime": 106.152,
+        "duration": 1916,
         "text": "They weren't happy about their wall, and we didn't get along.",
         "word_tag": [
             [
@@ -824,7 +845,8 @@
     },
     {
         "id": 22,
-        "duration": 2010,
+        "startTime": 109.234,
+        "duration": 1799,
         "text": "But then we were attacked by these crazy punch monkeys",
         "word_tag": [
             [
@@ -871,7 +893,8 @@
     },
     {
         "id": 23,
-        "duration": 1031,
+        "startTime": 111.36,
+        "duration": 707,
         "text": "so we had to team up to survive.",
         "word_tag": [
             [
@@ -914,7 +937,8 @@
     },
     {
         "id": 24,
-        "duration": 2984,
+        "startTime": 112.701,
+        "duration": 2353,
         "text": "It went so well, the Bettermans invited us to move in,",
         "word_tag": [
             [
@@ -973,7 +997,8 @@
     },
     {
         "id": 25,
-        "duration": 1993,
+        "startTime": 115.573,
+        "duration": 1477,
         "text": "and, boom, first neighborhood ever!",
         "word_tag": [
             [
@@ -1012,7 +1037,8 @@
     },
     {
         "id": 26,
-        "duration": 1978,
+        "startTime": 117.533,
+        "duration": 1498,
         "text": "And, boom, again, first best friend ever!",
         "word_tag": [
             [
@@ -1063,7 +1089,8 @@
     },
     {
         "id": 27,
-        "duration": -52999,
+        "startTime": 119.335,
+        "duration": -53301,
         "text": "Dawn rocks!",
         "word_tag": [
             [
@@ -1082,7 +1109,8 @@
     },
     {
         "id": 28,
-        "duration": 1018,
+        "startTime": 120.37,
+        "duration": 685,
         "text": "But the punch monkeys don't,",
         "word_tag": [
             [
@@ -1117,7 +1145,8 @@
     },
     {
         "id": 29,
-        "duration": 2944,
+        "startTime": 121.579,
+        "duration": 2422,
         "text": "so welcome back, wall, and hello, peace and quiet.",
         "word_tag": [
             [
@@ -1176,7 +1205,8 @@
     },
     {
         "id": 30,
-        "duration": 2022,
+        "startTime": 124.04,
+        "duration": 1986,
         "text": "Yep, the Croods are livin' easy now.",
         "word_tag": [
             [
@@ -1223,7 +1253,8 @@
     },
     {
         "id": 31,
-        "duration": 1984,
+        "startTime": 126.293,
+        "duration": 1720,
         "text": "Except it's not so easy.",
         "word_tag": [
             [
@@ -1258,7 +1289,8 @@
     },
     {
         "id": 32,
-        "duration": 1077,
+        "startTime": 132.174,
+        "duration": 920,
         "text": "\u2010 Is it night yet?",
         "word_tag": [
             [
@@ -1289,7 +1321,8 @@
     },
     {
         "id": 33,
-        "duration": 1994,
+        "startTime": 133.967,
+        "duration": 1123,
         "text": "\u2010 No, honey, we just woke up.",
         "word_tag": [
             [
@@ -1336,7 +1369,8 @@
     },
     {
         "id": 34,
-        "duration": 1961,
+        "startTime": 135.927,
+        "duration": 1126,
         "text": "\u2010 Aw, come on!",
         "word_tag": [
             [
@@ -1367,7 +1401,8 @@
     },
     {
         "id": 35,
-        "duration": 2956,
+        "startTime": 137.554,
+        "duration": 2457,
         "text": "No hunting, no chasing.",
         "word_tag": [
             [
@@ -1398,7 +1433,8 @@
     },
     {
         "id": 36,
-        "duration": 1021,
+        "startTime": 140.139,
+        "duration": 895,
         "text": "\u2010 No fighting.",
         "word_tag": [
             [
@@ -1421,7 +1457,8 @@
     },
     {
         "id": 37,
-        "duration": 1010,
+        "startTime": 143.1,
+        "duration": 920,
         "text": "\u2010 Sorry, Sandy.",
         "word_tag": [
             [
@@ -1448,7 +1485,8 @@
     },
     {
         "id": 38,
-        "duration": 1014,
+        "startTime": 144.23,
+        "duration": 807,
         "text": "Nothing to fight here.",
         "word_tag": [
             [
@@ -1475,7 +1513,8 @@
     },
     {
         "id": 39,
-        "duration": 2044,
+        "startTime": 145.397,
+        "duration": 1686,
         "text": "The farm has food, shelter, and safety.",
         "word_tag": [
             [
@@ -1522,7 +1561,8 @@
     },
     {
         "id": 40,
-        "duration": 1985,
+        "startTime": 147.855,
+        "duration": 1215,
         "text": "It's comfortable, predictable\u2010\u2010",
         "word_tag": [
             [
@@ -1549,7 +1589,8 @@
     },
     {
         "id": 41,
-        "duration": 2973,
+        "startTime": 149.733,
+        "duration": 2313,
         "text": "\u2010 And so\u2010o\u2010o\u2010o boring!",
         "word_tag": [
             [
@@ -1576,7 +1617,8 @@
     },
     {
         "id": 42,
-        "duration": 1989,
+        "startTime": 152.485,
+        "duration": 1552,
         "text": "\u2010 Relaxing?",
         "word_tag": [
             [
@@ -1595,7 +1637,8 @@
     },
     {
         "id": 43,
-        "duration": 1977,
+        "startTime": 154.403,
+        "duration": 1614,
         "text": "Good. Keep doing that.",
         "word_tag": [
             [
@@ -1626,7 +1669,8 @@
     },
     {
         "id": 44,
-        "duration": 1061,
+        "startTime": 156.198,
+        "duration": 882,
         "text": "\u2010 Can we help with anything, Hope?",
         "word_tag": [
             [
@@ -1669,7 +1713,8 @@
     },
     {
         "id": 45,
-        "duration": 2935,
+        "startTime": 157.824,
+        "duration": 2193,
         "text": "\u2010 Nope. Everything's taken care of.",
         "word_tag": [
             [
@@ -1712,7 +1757,8 @@
     },
     {
         "id": 46,
-        "duration": 1989,
+        "startTime": 160.201,
+        "duration": 1808,
         "text": "Ew!",
         "word_tag": [
             [
@@ -1727,7 +1773,8 @@
     },
     {
         "id": 47,
-        "duration": 1085,
+        "startTime": 162.12,
+        "duration": 977,
         "text": "So I'll make lunch",
         "word_tag": [
             [
@@ -1754,7 +1801,8 @@
     },
     {
         "id": 48,
-        "duration": 1960,
+        "startTime": 163.997,
+        "duration": 1062,
         "text": "and you stay out of the way and do nothing.",
         "word_tag": [
             [
@@ -1805,7 +1853,8 @@
     },
     {
         "id": 49,
-        "duration": 982,
+        "startTime": 165.623,
+        "duration": 421,
         "text": "Bye!",
         "word_tag": [
             [
@@ -1820,7 +1869,8 @@
     },
     {
         "id": 50,
-        "duration": 1035,
+        "startTime": 166.465,
+        "duration": 616,
         "text": "\u2010 Do nothing?",
         "word_tag": [
             [
@@ -1843,7 +1893,8 @@
     },
     {
         "id": 51,
-        "duration": 1919,
+        "startTime": 167.835,
+        "duration": 1167,
         "text": "We're the Croods!",
         "word_tag": [
             [
@@ -1870,7 +1921,8 @@
     },
     {
         "id": 52,
-        "duration": 1053,
+        "startTime": 169.043,
+        "duration": 1014,
         "text": "We hunt Kangadillos.",
         "word_tag": [
             [
@@ -1893,7 +1945,8 @@
     },
     {
         "id": 53,
-        "duration": 1955,
+        "startTime": 170.594,
+        "duration": 1420,
         "text": "We topple trees.",
         "word_tag": [
             [
@@ -1916,7 +1969,8 @@
     },
     {
         "id": 54,
-        "duration": 1985,
+        "startTime": 172.171,
+        "duration": 1831,
         "text": "We paint the things we do on rocks.",
         "word_tag": [
             [
@@ -1959,7 +2013,8 @@
     },
     {
         "id": 55,
-        "duration": 2001,
+        "startTime": 174.051,
+        "duration": 1955,
         "text": "We gotta have a purpose on this farm.",
         "word_tag": [
             [
@@ -2006,7 +2061,8 @@
     },
     {
         "id": 56,
-        "duration": 3048,
+        "startTime": 176.093,
+        "duration": 2964,
         "text": "Because, if we don't, we're as useless as a slugopotamus.",
         "word_tag": [
             [
@@ -2073,7 +2129,8 @@
     },
     {
         "id": 57,
-        "duration": -51032,
+        "startTime": 179.603,
+        "duration": -51575,
         "text": "And the Croods aren't slugopotomuses.",
         "word_tag": [
             [
@@ -2108,7 +2165,8 @@
     },
     {
         "id": 58,
-        "duration": 1015,
+        "startTime": 182.306,
+        "duration": 739,
         "text": "\u2010 As far as we know.",
         "word_tag": [
             [
@@ -2143,7 +2201,8 @@
     },
     {
         "id": 59,
-        "duration": 2023,
+        "startTime": 183.478,
+        "duration": 1592,
         "text": "\u2010 Is doing nothing really so bad?",
         "word_tag": [
             [
@@ -2182,7 +2241,8 @@
     },
     {
         "id": 60,
-        "duration": 1950,
+        "startTime": 185.727,
+        "duration": 1295,
         "text": "Look how happy Douglas is.",
         "word_tag": [
             [
@@ -2213,7 +2273,8 @@
     },
     {
         "id": 61,
-        "duration": 2981,
+        "startTime": 188.396,
+        "duration": 2624,
         "text": "See? I've always said moving is overrated.",
         "word_tag": [
             [
@@ -2260,7 +2321,8 @@
     },
     {
         "id": 62,
-        "duration": 3069,
+        "startTime": 191.233,
+        "duration": 2859,
         "text": "Oh, uh, could someone move my cup closer to my mouth?",
         "word_tag": [
             [
@@ -2323,7 +2385,8 @@
     },
     {
         "id": 63,
-        "duration": 1931,
+        "startTime": 194.944,
+        "duration": 1081,
         "text": "\u2010 Thunk's right.",
         "word_tag": [
             [
@@ -2350,7 +2413,8 @@
     },
     {
         "id": 64,
-        "duration": 1043,
+        "startTime": 196.28,
+        "duration": 791,
         "text": "Down time has an upside.",
         "word_tag": [
             [
@@ -2381,7 +2445,8 @@
     },
     {
         "id": 65,
-        "duration": 2937,
+        "startTime": 197.74,
+        "duration": 2271,
         "text": "More time for stolen kisses.",
         "word_tag": [
             [
@@ -2412,7 +2477,8 @@
     },
     {
         "id": 66,
-        "duration": 1017,
+        "startTime": 201.409,
+        "duration": 648,
         "text": "\u2010 Morning, Guy.",
         "word_tag": [
             [
@@ -2439,7 +2505,8 @@
     },
     {
         "id": 67,
-        "duration": 2998,
+        "startTime": 206.956,
+        "duration": 2137,
         "text": "\u2010 More time for careless whispers. Whoops.",
         "word_tag": [
             [
@@ -2482,7 +2549,8 @@
     },
     {
         "id": 68,
-        "duration": 1993,
+        "startTime": 209.96,
+        "duration": 1129,
         "text": "\u2010 Hmm. More time for cuddling.",
         "word_tag": [
             [
@@ -2521,7 +2589,8 @@
     },
     {
         "id": 69,
-        "duration": 1951,
+        "startTime": 211.92,
+        "duration": 1123,
         "text": "\u2010 No. No time for cuddling.",
         "word_tag": [
             [
@@ -2560,7 +2629,8 @@
     },
     {
         "id": 70,
-        "duration": 1048,
+        "startTime": 213.462,
+        "duration": 632,
         "text": "\u2010 Wh... What about the sleep pile?",
         "word_tag": [
             [
@@ -2603,7 +2673,8 @@
     },
     {
         "id": 71,
-        "duration": 1982,
+        "startTime": 214.973,
+        "duration": 1106,
         "text": "We did that every night in our old life.",
         "word_tag": [
             [
@@ -2650,7 +2721,8 @@
     },
     {
         "id": 72,
-        "duration": 1031,
+        "startTime": 220.012,
+        "duration": 1020,
         "text": "\u2010 That's family cuddling.",
         "word_tag": [
             [
@@ -2681,7 +2753,8 @@
     },
     {
         "id": 73,
-        "duration": 1010,
+        "startTime": 221.346,
+        "duration": 698,
         "text": "It's completely different.",
         "word_tag": [
             [
@@ -2708,7 +2781,8 @@
     },
     {
         "id": 74,
-        "duration": 3035,
+        "startTime": 222.472,
+        "duration": 2610,
         "text": "\u2010 Fine. New Eep and Guy can cuddle with our eyes.",
         "word_tag": [
             [
@@ -2767,7 +2841,8 @@
     },
     {
         "id": 75,
-        "duration": 1935,
+        "startTime": 225.85,
+        "duration": 1170,
         "text": "\u2010 Hey. \u2010 Hey.",
         "word_tag": [
             [
@@ -2798,7 +2873,8 @@
     },
     {
         "id": 76,
-        "duration": 1010,
+        "startTime": 227.227,
+        "duration": 805,
         "text": "\u2010 Hey!",
         "word_tag": [
             [
@@ -2817,7 +2893,8 @@
     },
     {
         "id": 77,
-        "duration": 2026,
+        "startTime": 228.353,
+        "duration": 1708,
         "text": "\u2010 Hey! Something to do just ran by.",
         "word_tag": [
             [
@@ -2864,7 +2941,8 @@
     },
     {
         "id": 78,
-        "duration": 957,
+        "startTime": 231.439,
+        "duration": 561,
         "text": "Mom's right.",
         "word_tag": [
             [
@@ -2887,7 +2965,8 @@
     },
     {
         "id": 79,
-        "duration": 1015,
+        "startTime": 232.024,
+        "duration": 993,
         "text": "Pigator on the loose.",
         "word_tag": [
             [
@@ -2914,7 +2993,8 @@
     },
     {
         "id": 80,
-        "duration": 2018,
+        "startTime": 233.194,
+        "duration": 1843,
         "text": "\u2010 Let's grab it and stab it!",
         "word_tag": [
             [
@@ -2957,7 +3037,8 @@
     },
     {
         "id": 81,
-        "duration": 3998,
+        "startTime": 235.401,
+        "duration": 3637,
         "text": "\u2010 Or, we can redirect that stabbing energy into something less stabby.",
         "word_tag": [
             [
@@ -3020,7 +3101,8 @@
     },
     {
         "id": 82,
-        "duration": -50022,
+        "startTime": 239.413,
+        "duration": -50394,
         "text": "\u2010 Uh, I'm still waiting for someone to move my cup. Yeah.",
         "word_tag": [
             [
@@ -3091,7 +3173,8 @@
     },
     {
         "id": 83,
-        "duration": 1000,
+        "startTime": 269.728,
+        "duration": 344,
         "text": "\u2010 Ooh!",
         "word_tag": [
             [
@@ -3110,7 +3193,8 @@
     },
     {
         "id": 84,
-        "duration": 1089,
+        "startTime": 272.021,
+        "duration": 1070,
         "text": "\u2010 Aw!",
         "word_tag": [
             [
@@ -3129,7 +3213,8 @@
     },
     {
         "id": 85,
-        "duration": 985,
+        "startTime": 273.941,
+        "duration": 138,
         "text": "Morning, Phil.",
         "word_tag": [
             [
@@ -3152,7 +3237,8 @@
     },
     {
         "id": 86,
-        "duration": 1001,
+        "startTime": 274.822,
+        "duration": 261,
         "text": "\u2010 Good morning.",
         "word_tag": [
             [
@@ -3175,7 +3261,8 @@
     },
     {
         "id": 87,
-        "duration": 1982,
+        "startTime": 275.858,
+        "duration": 1209,
         "text": "Just testing my new trap.",
         "word_tag": [
             [
@@ -3206,7 +3293,8 @@
     },
     {
         "id": 88,
-        "duration": 2944,
+        "startTime": 277.694,
+        "duration": 2319,
         "text": "So no more runaway pigators.",
         "word_tag": [
             [
@@ -3237,7 +3325,8 @@
     },
     {
         "id": 89,
-        "duration": 1990,
+        "startTime": 280.154,
+        "duration": 1851,
         "text": "\u2010 But we were gonna catch that pigator.",
         "word_tag": [
             [
@@ -3284,7 +3373,8 @@
     },
     {
         "id": 90,
-        "duration": 2027,
+        "startTime": 282.074,
+        "duration": 1960,
         "text": "\u2010 No need. This trap is flawless.",
         "word_tag": [
             [
@@ -3327,7 +3417,8 @@
     },
     {
         "id": 91,
-        "duration": 2031,
+        "startTime": 284.367,
+        "duration": 1700,
         "text": "Just like the rest of the system that runs this farm.",
         "word_tag": [
             [
@@ -3382,7 +3473,8 @@
     },
     {
         "id": 92,
-        "duration": 2943,
+        "startTime": 286.702,
+        "duration": 2311,
         "text": "So keep doing nothing, Croods.",
         "word_tag": [
             [
@@ -3417,7 +3509,8 @@
     },
     {
         "id": 93,
-        "duration": 1060,
+        "startTime": 289.163,
+        "duration": 913,
         "text": "It suits you.",
         "word_tag": [
             [
@@ -3440,7 +3533,8 @@
     },
     {
         "id": 94,
-        "duration": 964,
+        "startTime": 290.79,
+        "duration": 253,
         "text": "\u2010 What was that?",
         "word_tag": [
             [
@@ -3467,7 +3561,8 @@
     },
     {
         "id": 95,
-        "duration": 1972,
+        "startTime": 291.461,
+        "duration": 1557,
         "text": "\u2010 Oh, that's a bounceberry.",
         "word_tag": [
             [
@@ -3506,7 +3601,8 @@
     },
     {
         "id": 96,
-        "duration": 1057,
+        "startTime": 293.209,
+        "duration": 868,
         "text": "They're ripe. It's time to harvest them.",
         "word_tag": [
             [
@@ -3557,7 +3653,8 @@
     },
     {
         "id": 97,
-        "duration": 1926,
+        "startTime": 294.8,
+        "duration": 1206,
         "text": "\u2010 Ooh! Uh, we'll do that!",
         "word_tag": [
             [
@@ -3604,7 +3701,8 @@
     },
     {
         "id": 98,
-        "duration": 1052,
+        "startTime": 296.088,
+        "duration": 972,
         "text": "\u2010 Oh, I don't think so.",
         "word_tag": [
             [
@@ -3647,7 +3745,8 @@
     },
     {
         "id": 99,
-        "duration": -51044,
+        "startTime": 297.63,
+        "duration": -51611,
         "text": "Bounceberries are a favorite fruit around here.",
         "word_tag": [
             [
@@ -3686,7 +3785,8 @@
     },
     {
         "id": 100,
-        "duration": 2055,
+        "startTime": 300.22,
+        "duration": 1857,
         "text": "And they can be tricky. Even dangerous.",
         "word_tag": [
             [
@@ -3729,7 +3829,8 @@
     },
     {
         "id": 101,
-        "duration": 1998,
+        "startTime": 302.802,
+        "duration": 1276,
         "text": "\u2010 Great! We love danger. We're in.",
         "word_tag": [
             [
@@ -3780,7 +3881,8 @@
     },
     {
         "id": 102,
-        "duration": 1959,
+        "startTime": 304.81,
+        "duration": 1230,
         "text": "\u2010 You're out. It's taken care of.",
         "word_tag": [
             [
@@ -3831,7 +3933,8 @@
     },
     {
         "id": 103,
-        "duration": 2035,
+        "startTime": 306.43,
+        "duration": 1648,
         "text": "\u2010 Uh, let me guess. By the system?",
         "word_tag": [
             [
@@ -3882,7 +3985,8 @@
     },
     {
         "id": 104,
-        "duration": 2957,
+        "startTime": 308.809,
+        "duration": 2228,
         "text": "\u2010 Precisely. With me at the helm.",
         "word_tag": [
             [
@@ -3925,7 +4029,8 @@
     },
     {
         "id": 105,
-        "duration": 3969,
+        "startTime": 311.394,
+        "duration": 3614,
         "text": "So, if you'll excuse me, I need to limber up before the harvest.",
         "word_tag": [
             [
@@ -4000,7 +4105,8 @@
     },
     {
         "id": 106,
-        "duration": 2071,
+        "startTime": 315.106,
+        "duration": 1975,
         "text": "Time for a steam in the man cave.",
         "word_tag": [
             [
@@ -4043,7 +4149,8 @@
     },
     {
         "id": 107,
-        "duration": 994,
+        "startTime": 319.735,
+        "duration": 332,
         "text": "\u2010 Come on.",
         "word_tag": [
             [
@@ -4066,7 +4173,8 @@
     },
     {
         "id": 108,
-        "duration": 2952,
+        "startTime": 320.697,
+        "duration": 2324,
         "text": "There has to be something we can do around here",
         "word_tag": [
             [
@@ -4113,7 +4221,8 @@
     },
     {
         "id": 109,
-        "duration": 1997,
+        "startTime": 323.24,
+        "duration": 1781,
         "text": "\u2010 You know who has ideas?",
         "word_tag": [
             [
@@ -4148,7 +4257,8 @@
     },
     {
         "id": 110,
-        "duration": 2043,
+        "startTime": 325.242,
+        "duration": 1825,
         "text": "Guy\u2010Boy, I can hear those wheels turning.",
         "word_tag": [
             [
@@ -4191,7 +4301,8 @@
     },
     {
         "id": 111,
-        "duration": 1948,
+        "startTime": 327.702,
+        "duration": 1316,
         "text": "\u2010 You get one pet name a day.",
         "word_tag": [
             [
@@ -4234,7 +4345,8 @@
     },
     {
         "id": 112,
-        "duration": 1068,
+        "startTime": 329.204,
+        "duration": 884,
         "text": "So that's it. You're done.",
         "word_tag": [
             [
@@ -4277,7 +4389,8 @@
     },
     {
         "id": 113,
-        "duration": 3915,
+        "startTime": 330.913,
+        "duration": 3093,
         "text": "\u2010 Well, one idea is both sides compromise and live in peace.",
         "word_tag": [
             [
@@ -4340,7 +4453,8 @@
     },
     {
         "id": 114,
-        "duration": 1068,
+        "startTime": 334.084,
+        "duration": 992,
         "text": "\u2010 Ha. That'll never work.",
         "word_tag": [
             [
@@ -4379,7 +4493,8 @@
     },
     {
         "id": 115,
-        "duration": 2931,
+        "startTime": 335.793,
+        "duration": 2217,
         "text": "\u2010 You just need something to do to be happy.",
         "word_tag": [
             [
@@ -4430,7 +4545,8 @@
     },
     {
         "id": 116,
-        "duration": 2010,
+        "startTime": 338.132,
+        "duration": 1891,
         "text": "But it doesn't have to be work, right?",
         "word_tag": [
             [
@@ -4481,7 +4597,8 @@
     },
     {
         "id": 117,
-        "duration": 1010,
+        "startTime": 340.259,
+        "duration": 776,
         "text": "So, how about a game?",
         "word_tag": [
             [
@@ -4516,7 +4633,8 @@
     },
     {
         "id": 118,
-        "duration": 1027,
+        "startTime": 341.382,
+        "duration": 683,
         "text": "Ooh. How about this,",
         "word_tag": [
             [
@@ -4547,7 +4665,8 @@
     },
     {
         "id": 119,
-        "duration": 2028,
+        "startTime": 342.68,
+        "duration": 1416,
         "text": "you find something and then you throw it?",
         "word_tag": [
             [
@@ -4590,7 +4709,8 @@
     },
     {
         "id": 120,
-        "duration": 1012,
+        "startTime": 348.014,
+        "duration": 999,
         "text": "It's called \"Throw.\"",
         "word_tag": [
             [
@@ -4625,7 +4745,8 @@
     },
     {
         "id": 121,
-        "duration": 1986,
+        "startTime": 351.268,
+        "duration": 1744,
         "text": "Yeah. Throw might need some work.",
         "word_tag": [
             [
@@ -4664,7 +4785,8 @@
     },
     {
         "id": 122,
-        "duration": 1006,
+        "startTime": 353.148,
+        "duration": 872,
         "text": "\u2010 Better idea,",
         "word_tag": [
             [
@@ -4687,7 +4809,8 @@
     },
     {
         "id": 123,
-        "duration": 1994,
+        "startTime": 354.228,
+        "duration": 1788,
         "text": "we stop doing what Phil and Hope tell us to do",
         "word_tag": [
             [
@@ -4738,7 +4861,8 @@
     },
     {
         "id": 124,
-        "duration": 1077,
+        "startTime": 356.189,
+        "duration": 906,
         "text": "and we start doing what we wanna do.",
         "word_tag": [
             [
@@ -4785,7 +4909,8 @@
     },
     {
         "id": 125,
-        "duration": 1922,
+        "startTime": 357.983,
+        "duration": 1037,
         "text": "Because this is our home now.",
         "word_tag": [
             [
@@ -4820,7 +4945,8 @@
     },
     {
         "id": 126,
-        "duration": 65,
+        "startTime": 359.233,
+        "duration": -145,
         "text": "\u2010 Yes.",
         "word_tag": [
             [
@@ -4839,7 +4965,8 @@
     },
     {
         "id": 127,
-        "duration": -51082,
+        "startTime": 359.904,
+        "duration": -51896,
         "text": "\u2010 Grug, go tell Phil that's what's happening.",
         "word_tag": [
             [
@@ -4894,7 +5021,8 @@
     },
     {
         "id": 128,
-        "duration": 1056,
+        "startTime": 362.112,
+        "duration": 955,
         "text": "\u2010 Aw, in the steam?",
         "word_tag": [
             [
@@ -4929,7 +5057,8 @@
     },
     {
         "id": 129,
-        "duration": 2944,
+        "startTime": 363.697,
+        "duration": 2316,
         "text": "\u2010 Yes. And I'll tell Hope I'm gonna help her.",
         "word_tag": [
             [
@@ -4996,7 +5125,8 @@
     },
     {
         "id": 130,
-        "duration": 1006,
+        "startTime": 366.158,
+        "duration": 863,
         "text": "Whether she likes it or not.",
         "word_tag": [
             [
@@ -5031,7 +5161,8 @@
     },
     {
         "id": 131,
-        "duration": 1048,
+        "startTime": 367.242,
+        "duration": 830,
         "text": "\u2010 Dawn will love this.",
         "word_tag": [
             [
@@ -5062,7 +5193,8 @@
     },
     {
         "id": 132,
-        "duration": 2960,
+        "startTime": 368.744,
+        "duration": 2290,
         "text": "Her whole life, her parents have been so worried about her getting hurt,",
         "word_tag": [
             [
@@ -5129,7 +5261,8 @@
     },
     {
         "id": 133,
-        "duration": 1056,
+        "startTime": 371.372,
+        "duration": 721,
         "text": "they've never let her do anything.",
         "word_tag": [
             [
@@ -5168,7 +5301,8 @@
     },
     {
         "id": 134,
-        "duration": 1939,
+        "startTime": 372.961,
+        "duration": 1074,
         "text": "Let's go, Guy\u2010baby.",
         "word_tag": [
             [
@@ -5199,7 +5333,8 @@
     },
     {
         "id": 135,
-        "duration": 2034,
+        "startTime": 374.374,
+        "duration": 1697,
         "text": "\u2010 One pet name a day. That's two.",
         "word_tag": [
             [
@@ -5250,7 +5385,8 @@
     },
     {
         "id": 136,
-        "duration": 3048,
+        "startTime": 382.382,
+        "duration": 2704,
         "text": "\u2010 You're always welcome in my man cave, Grug.",
         "word_tag": [
             [
@@ -5305,7 +5441,8 @@
     },
     {
         "id": 137,
-        "duration": 2940,
+        "startTime": 385.886,
+        "duration": 2142,
         "text": "My steam is your steam.",
         "word_tag": [
             [
@@ -5336,7 +5473,8 @@
     },
     {
         "id": 138,
-        "duration": 1023,
+        "startTime": 388.305,
+        "duration": 748,
         "text": "\u2010 Uh, yeah, thanks.",
         "word_tag": [
             [
@@ -5371,7 +5509,8 @@
     },
     {
         "id": 139,
-        "duration": 1967,
+        "startTime": 389.555,
+        "duration": 1467,
         "text": "So I'm here to tell you\u2010\u2010",
         "word_tag": [
             [
@@ -5406,7 +5545,8 @@
     },
     {
         "id": 140,
-        "duration": 1005,
+        "startTime": 396.103,
+        "duration": 912,
         "text": "So I'm here to\u2010\u2010",
         "word_tag": [
             [
@@ -5433,7 +5573,8 @@
     },
     {
         "id": 141,
-        "duration": 1992,
+        "startTime": 406.447,
+        "duration": 1589,
         "text": "I'm here to tell you things\u2010\u2010",
         "word_tag": [
             [
@@ -5468,7 +5609,8 @@
     },
     {
         "id": 142,
-        "duration": 1052,
+        "startTime": 409.201,
+        "duration": 871,
         "text": "are going to change around here.",
         "word_tag": [
             [
@@ -5503,7 +5645,8 @@
     },
     {
         "id": 143,
-        "duration": 1019,
+        "startTime": 410.744,
+        "duration": 349,
         "text": "\u2010 Of course.",
         "word_tag": [
             [
@@ -5526,7 +5669,8 @@
     },
     {
         "id": 144,
-        "duration": 1948,
+        "startTime": 411.954,
+        "duration": 1089,
         "text": "Let's talk about that.",
         "word_tag": [
             [
@@ -5557,7 +5701,8 @@
     },
     {
         "id": 145,
-        "duration": 1959,
+        "startTime": 413.461,
+        "duration": 1544,
         "text": "\u2010 Great, so we're gonna\u2010\u2010",
         "word_tag": [
             [
@@ -5600,7 +5745,8 @@
     },
     {
         "id": 146,
-        "duration": 1052,
+        "startTime": 415.081,
+        "duration": 979,
         "text": "\u2010 After the steam.",
         "word_tag": [
             [
@@ -5627,7 +5773,8 @@
     },
     {
         "id": 147,
-        "duration": 1031,
+        "startTime": 416.625,
+        "duration": 468,
         "text": "\u2010 Right, but\u2010but Ugga said\u2010\u2010",
         "word_tag": [
             [
@@ -5658,7 +5805,8 @@
     },
     {
         "id": 148,
-        "duration": 1969,
+        "startTime": 417.959,
+        "duration": 1105,
         "text": "\u2010 Steam first, talk after.",
         "word_tag": [
             [
@@ -5693,7 +5841,8 @@
     },
     {
         "id": 149,
-        "duration": -52053,
+        "startTime": 419.67,
+        "duration": -52656,
         "text": "\u2010 Okay, but, uh, I'm\u2010\u2010",
         "word_tag": [
             [
@@ -5732,7 +5881,8 @@
     },
     {
         "id": 150,
-        "duration": 1985,
+        "startTime": 421.17,
+        "duration": 1832,
         "text": "\u2010 Steam, then talk.",
         "word_tag": [
             [
@@ -5763,7 +5913,8 @@
     },
     {
         "id": 151,
-        "duration": 52,
+        "startTime": 423.048,
+        "duration": 8,
         "text": "\u2010 But\u2010\u2010",
         "word_tag": [
             [
@@ -5778,7 +5929,8 @@
     },
     {
         "id": 152,
-        "duration": 1004,
+        "startTime": 423.589,
+        "duration": 473,
         "text": "\u2010 Steam, talk.",
         "word_tag": [
             [
@@ -5805,7 +5957,8 @@
     },
     {
         "id": 153,
-        "duration": 2008,
+        "startTime": 427.427,
+        "duration": 1623,
         "text": "\u2010 Well, how long of a steam?",
         "word_tag": [
             [
@@ -5848,7 +6001,8 @@
     },
     {
         "id": 154,
-        "duration": 994,
+        "startTime": 430.555,
+        "duration": 494,
         "text": "Phil?",
         "word_tag": [
             [
@@ -5863,7 +6017,8 @@
     },
     {
         "id": 155,
-        "duration": 1977,
+        "startTime": 431.516,
+        "duration": 1512,
         "text": "Phil? Phil?",
         "word_tag": [
             [
@@ -5886,7 +6041,8 @@
     },
     {
         "id": 156,
-        "duration": 1048,
+        "startTime": 433.307,
+        "duration": 771,
         "text": "Phil, where'd you go? Phil!",
         "word_tag": [
             [
@@ -5929,7 +6085,8 @@
     },
     {
         "id": 157,
-        "duration": 1007,
+        "startTime": 434.81,
+        "duration": 278,
         "text": "\u2010 Yes?",
         "word_tag": [
             [
@@ -5948,7 +6105,8 @@
     },
     {
         "id": 158,
-        "duration": 3950,
+        "startTime": 439.856,
+        "duration": 3179,
         "text": "See? You're completely relaxed, thanks to the steam.",
         "word_tag": [
             [
@@ -6003,7 +6161,8 @@
     },
     {
         "id": 159,
-        "duration": 1951,
+        "startTime": 445.821,
+        "duration": 1212,
         "text": "\u2010 So sweet of you to offer.",
         "word_tag": [
             [
@@ -6042,7 +6201,8 @@
     },
     {
         "id": 160,
-        "duration": 2002,
+        "startTime": 447.363,
+        "duration": 1675,
         "text": "But I'm making lunch. Okay?",
         "word_tag": [
             [
@@ -6081,7 +6241,8 @@
     },
     {
         "id": 161,
-        "duration": 2057,
+        "startTime": 449.408,
+        "duration": 1689,
         "text": "\u2010 No. We're making lunch. Together.",
         "word_tag": [
             [
@@ -6128,7 +6289,8 @@
     },
     {
         "id": 162,
-        "duration": 3914,
+        "startTime": 451.994,
+        "duration": 3019,
         "text": "\u2010 Ohh. You wanna help make lunch?",
         "word_tag": [
             [
@@ -6175,7 +6337,8 @@
     },
     {
         "id": 163,
-        "duration": 989,
+        "startTime": 455.163,
+        "duration": 842,
         "text": "In my kitchen?",
         "word_tag": [
             [
@@ -6198,7 +6361,8 @@
     },
     {
         "id": 164,
-        "duration": 1000,
+        "startTime": 456.081,
+        "duration": 927,
         "text": "\u2010 Our kitchen.",
         "word_tag": [
             [
@@ -6221,7 +6385,8 @@
     },
     {
         "id": 165,
-        "duration": 2939,
+        "startTime": 458.834,
+        "duration": 2188,
         "text": "\u2010 Of course. Our kitchen.",
         "word_tag": [
             [
@@ -6256,7 +6421,8 @@
     },
     {
         "id": 166,
-        "duration": 1043,
+        "startTime": 461.252,
+        "duration": 816,
         "text": "Because you live here now.",
         "word_tag": [
             [
@@ -6287,7 +6453,8 @@
     },
     {
         "id": 167,
-        "duration": 2973,
+        "startTime": 462.713,
+        "duration": 2331,
         "text": "So we share the kitchen, that was once mine. Good.",
         "word_tag": [
             [
@@ -6346,7 +6513,8 @@
     },
     {
         "id": 168,
-        "duration": 1012,
+        "startTime": 465.465,
+        "duration": 593,
         "text": "\u2010 I'm glad you're not upset.",
         "word_tag": [
             [
@@ -6389,7 +6557,8 @@
     },
     {
         "id": 169,
-        "duration": 998,
+        "startTime": 467.968,
+        "duration": 126,
         "text": "\u2010 Upset?",
         "word_tag": [
             [
@@ -6408,7 +6577,8 @@
     },
     {
         "id": 170,
-        "duration": 1994,
+        "startTime": 468.968,
+        "duration": 1122,
         "text": "In the kitchen I helped build from nothing",
         "word_tag": [
             [
@@ -6447,7 +6617,8 @@
     },
     {
         "id": 171,
-        "duration": 2952,
+        "startTime": 470.928,
+        "duration": 2116,
         "text": "that I never had to share with anyone before now?",
         "word_tag": [
             [
@@ -6498,7 +6669,8 @@
     },
     {
         "id": 172,
-        "duration": 2984,
+        "startTime": 473.473,
+        "duration": 2558,
         "text": "How could I be upset? That's crazy.",
         "word_tag": [
             [
@@ -6545,7 +6717,8 @@
     },
     {
         "id": 173,
-        "duration": 1977,
+        "startTime": 476.935,
+        "duration": 1135,
         "text": "\u2010 We're cooking meat, right?",
         "word_tag": [
             [
@@ -6584,7 +6757,8 @@
     },
     {
         "id": 174,
-        "duration": -51014,
+        "startTime": 478.728,
+        "duration": -51670,
         "text": "Because that's all I eat. Meat.",
         "word_tag": [
             [
@@ -6627,7 +6801,8 @@
     },
     {
         "id": 175,
-        "duration": 2023,
+        "startTime": 481.607,
+        "duration": 1476,
         "text": "\u2010 Oh, good. More help.",
         "word_tag": [
             [
@@ -6666,7 +6841,8 @@
     },
     {
         "id": 176,
-        "duration": 2948,
+        "startTime": 483.858,
+        "duration": 2175,
         "text": "Well, we're making soup, so\u2010\u2010",
         "word_tag": [
             [
@@ -6705,7 +6881,8 @@
     },
     {
         "id": 177,
-        "duration": 1055,
+        "startTime": 486.36,
+        "duration": 731,
         "text": "\u2010 Soup? You got it.",
         "word_tag": [
             [
@@ -6740,7 +6917,8 @@
     },
     {
         "id": 178,
-        "duration": 2994,
+        "startTime": 493.242,
+        "duration": 2776,
         "text": "\u2010 So you don't know what soup is.",
         "word_tag": [
             [
@@ -6787,7 +6965,8 @@
     },
     {
         "id": 179,
-        "duration": 1004,
+        "startTime": 496.204,
+        "duration": 820,
         "text": "\u2010 Nope.",
         "word_tag": [
             [
@@ -6806,7 +6985,8 @@
     },
     {
         "id": 180,
-        "duration": 1025,
+        "startTime": 500.417,
+        "duration": 649,
         "text": "\u2010 Ew.",
         "word_tag": [
             [
@@ -6825,7 +7005,8 @@
     },
     {
         "id": 181,
-        "duration": 2008,
+        "startTime": 503.879,
+        "duration": 1216,
         "text": "\u2010 You're saying we're gonna do something around here?",
         "word_tag": [
             [
@@ -6884,7 +7065,8 @@
     },
     {
         "id": 182,
-        "duration": 2006,
+        "startTime": 506.423,
+        "duration": 1625,
         "text": "But my parents don't want me doing anything.",
         "word_tag": [
             [
@@ -6931,7 +7113,8 @@
     },
     {
         "id": 183,
-        "duration": 1955,
+        "startTime": 508.512,
+        "duration": 1494,
         "text": "Even playing Throw like this.",
         "word_tag": [
             [
@@ -6962,7 +7145,8 @@
     },
     {
         "id": 184,
-        "duration": 997,
+        "startTime": 510.093,
+        "duration": 913,
         "text": "'Cause they think I'll die.",
         "word_tag": [
             [
@@ -6997,7 +7181,8 @@
     },
     {
         "id": 185,
-        "duration": 1073,
+        "startTime": 511.093,
+        "duration": 989,
         "text": "\u2010 I'm so glad you guys like Throw.",
         "word_tag": [
             [
@@ -7044,7 +7229,8 @@
     },
     {
         "id": 186,
-        "duration": 1955,
+        "startTime": 512.85,
+        "duration": 1190,
         "text": "\u2010 Forget your parents.",
         "word_tag": [
             [
@@ -7071,7 +7257,8 @@
     },
     {
         "id": 187,
-        "duration": 1988,
+        "startTime": 514.431,
+        "duration": 1600,
         "text": "Because we're not gonna do anything.",
         "word_tag": [
             [
@@ -7114,7 +7301,8 @@
     },
     {
         "id": 188,
-        "duration": 2910,
+        "startTime": 516.933,
+        "duration": 2070,
         "text": "We're gonna do everything.",
         "word_tag": [
             [
@@ -7149,7 +7337,8 @@
     },
     {
         "id": 189,
-        "duration": 1060,
+        "startTime": 519.061,
+        "duration": 1005,
         "text": "Whoa, game changer.",
         "word_tag": [
             [
@@ -7176,7 +7365,8 @@
     },
     {
         "id": 190,
-        "duration": 2977,
+        "startTime": 520.687,
+        "duration": 2358,
         "text": "You're saying I could eat breakfast for dinner?",
         "word_tag": [
             [
@@ -7223,7 +7413,8 @@
     },
     {
         "id": 191,
-        "duration": 2002,
+        "startTime": 523.481,
+        "duration": 1569,
         "text": "I could get dirty and stay dirty?",
         "word_tag": [
             [
@@ -7262,7 +7453,8 @@
     },
     {
         "id": 192,
-        "duration": 1969,
+        "startTime": 525.529,
+        "duration": 1492,
         "text": "I could tell my parents what to do?",
         "word_tag": [
             [
@@ -7305,7 +7497,8 @@
     },
     {
         "id": 193,
-        "duration": 2002,
+        "startTime": 527.235,
+        "duration": 1790,
         "text": "\u2010 Exactly. And that's just the start.",
         "word_tag": [
             [
@@ -7352,7 +7545,8 @@
     },
     {
         "id": 194,
-        "duration": 1048,
+        "startTime": 529.278,
+        "duration": 797,
         "text": "\u2010 Breakfast\u2010dinner? The best.",
         "word_tag": [
             [
@@ -7383,7 +7577,8 @@
     },
     {
         "id": 195,
-        "duration": 1943,
+        "startTime": 530.78,
+        "duration": 1241,
         "text": "Dirt? Never gets old.",
         "word_tag": [
             [
@@ -7414,7 +7609,8 @@
     },
     {
         "id": 196,
-        "duration": 2022,
+        "startTime": 532.24,
+        "duration": 1806,
         "text": "But I think your parents like to be in charge.",
         "word_tag": [
             [
@@ -7465,7 +7661,8 @@
     },
     {
         "id": 197,
-        "duration": 2043,
+        "startTime": 534.493,
+        "duration": 1599,
         "text": "It's their thing. So maybe we start smaller.",
         "word_tag": [
             [
@@ -7516,7 +7713,8 @@
     },
     {
         "id": 198,
-        "duration": 982,
+        "startTime": 536.953,
+        "duration": 124,
         "text": "\u2010 Smaller how?",
         "word_tag": [
             [
@@ -7539,7 +7737,8 @@
     },
     {
         "id": 199,
-        "duration": -50069,
+        "startTime": 537.794,
+        "duration": -50784,
         "text": "\u2010 Well, what if we added something to Throw, like catching?",
         "word_tag": [
             [
@@ -7602,7 +7801,8 @@
     },
     {
         "id": 200,
-        "duration": 1073,
+        "startTime": 541.124,
+        "duration": 961,
         "text": "Ooh! We could call it Catch.",
         "word_tag": [
             [
@@ -7641,7 +7841,8 @@
     },
     {
         "id": 201,
-        "duration": 3010,
+        "startTime": 542.88,
+        "duration": 2218,
         "text": "\u2010 Hey, uh, could one of you move my cup closer to my mouth?",
         "word_tag": [
             [
@@ -7716,7 +7917,8 @@
     },
     {
         "id": 202,
-        "duration": 1060,
+        "startTime": 546.004,
+        "duration": 1056,
         "text": "\u2010 Or you could just get your cup.",
         "word_tag": [
             [
@@ -7759,7 +7961,8 @@
     },
     {
         "id": 203,
-        "duration": 993,
+        "startTime": 547.63,
+        "duration": 426,
         "text": "\u2010 Are you nuts?",
         "word_tag": [
             [
@@ -7786,7 +7989,8 @@
     },
     {
         "id": 204,
-        "duration": 2006,
+        "startTime": 548.591,
+        "duration": 1474,
         "text": "It's all the way across the farm by my hammock.",
         "word_tag": [
             [
@@ -7841,7 +8045,8 @@
     },
     {
         "id": 205,
-        "duration": 2028,
+        "startTime": 550.681,
+        "duration": 1415,
         "text": "\u2010 Thunk, wanna play Catch? Catch.",
         "word_tag": [
             [
@@ -7888,7 +8093,8 @@
     },
     {
         "id": 206,
-        "duration": 2040,
+        "startTime": 554.428,
+        "duration": 1654,
         "text": "\u2010 Or we go bigger. Bigger like a\u2010\u2010",
         "word_tag": [
             [
@@ -7931,7 +8137,8 @@
     },
     {
         "id": 207,
-        "duration": 2006,
+        "startTime": 556.849,
+        "duration": 1241,
         "text": "Bounceberry.",
         "word_tag": [
             [
@@ -7946,7 +8153,8 @@
     },
     {
         "id": 208,
-        "duration": 1963,
+        "startTime": 558.933,
+        "duration": 1123,
         "text": "Let's bounce!",
         "word_tag": [
             [
@@ -7969,7 +8177,8 @@
     },
     {
         "id": 209,
-        "duration": 1023,
+        "startTime": 571.529,
+        "duration": 546,
         "text": "\u2010 Lunch is served.",
         "word_tag": [
             [
@@ -7996,7 +8205,8 @@
     },
     {
         "id": 210,
-        "duration": 3960,
+        "startTime": 572.78,
+        "duration": 3258,
         "text": "\u2010 Which is what I used to say because I always served lunch.",
         "word_tag": [
             [
@@ -8059,7 +8269,8 @@
     },
     {
         "id": 211,
-        "duration": 1026,
+        "startTime": 576.412,
+        "duration": 655,
         "text": "But now Ugga's doing it.",
         "word_tag": [
             [
@@ -8094,7 +8305,8 @@
     },
     {
         "id": 212,
-        "duration": 1956,
+        "startTime": 577.702,
+        "duration": 1324,
         "text": "And I'm fine with that.",
         "word_tag": [
             [
@@ -8129,7 +8341,8 @@
     },
     {
         "id": 213,
-        "duration": 1059,
+        "startTime": 579.292,
+        "duration": 796,
         "text": "Because I have to be.",
         "word_tag": [
             [
@@ -8160,7 +8373,8 @@
     },
     {
         "id": 214,
-        "duration": 1005,
+        "startTime": 580.913,
+        "duration": 183,
         "text": "Or do I?",
         "word_tag": [
             [
@@ -8183,7 +8397,8 @@
     },
     {
         "id": 215,
-        "duration": 1985,
+        "startTime": 583.792,
+        "duration": 1272,
         "text": "\u2010 Wh\u2010\u2010 What? Why would you\u2010\u2010",
         "word_tag": [
             [
@@ -8218,7 +8433,8 @@
     },
     {
         "id": 216,
-        "duration": 1994,
+        "startTime": 585.668,
+        "duration": 1392,
         "text": "\u2010 Oops. Ugga spilled the soup.",
         "word_tag": [
             [
@@ -8257,7 +8473,8 @@
     },
     {
         "id": 217,
-        "duration": 2969,
+        "startTime": 587.629,
+        "duration": 2402,
         "text": "But don't worry, I'll make a new lunch.",
         "word_tag": [
             [
@@ -8312,7 +8529,8 @@
     },
     {
         "id": 218,
-        "duration": 1026,
+        "startTime": 590.34,
+        "duration": 720,
         "text": "\u2010 We'll make a new lunch.",
         "word_tag": [
             [
@@ -8351,7 +8569,8 @@
     },
     {
         "id": 219,
-        "duration": 1976,
+        "startTime": 591.633,
+        "duration": 1406,
         "text": "\u2010 Perfect.",
         "word_tag": [
             [
@@ -8370,7 +8589,8 @@
     },
     {
         "id": 220,
-        "duration": 2056,
+        "startTime": 594.135,
+        "duration": 1934,
         "text": "\u2010 At least they have something to do. Lucky.",
         "word_tag": [
             [
@@ -8421,7 +8641,8 @@
     },
     {
         "id": 221,
-        "duration": 1947,
+        "startTime": 596.721,
+        "duration": 1298,
         "text": "Well, so do we.",
         "word_tag": [
             [
@@ -8452,7 +8673,8 @@
     },
     {
         "id": 222,
-        "duration": 998,
+        "startTime": 598.222,
+        "duration": 798,
         "text": "Bounceberries.",
         "word_tag": [
             [
@@ -8467,7 +8689,8 @@
     },
     {
         "id": 223,
-        "duration": 68,
+        "startTime": 599.224,
+        "duration": -134,
         "text": "\u2010 Bounceberries?",
         "word_tag": [
             [
@@ -8486,7 +8709,8 @@
     },
     {
         "id": 224,
-        "duration": -53010,
+        "startTime": 599.932,
+        "duration": -53849,
         "text": "\u2010 Bounceberries!",
         "word_tag": [
             [
@@ -8505,7 +8729,8 @@
     },
     {
         "id": 225,
-        "duration": 1921,
+        "startTime": 600.854,
+        "duration": 1152,
         "text": "\u2010 Bananas!",
         "word_tag": [
             [
@@ -8524,7 +8749,8 @@
     },
     {
         "id": 226,
-        "duration": 1923,
+        "startTime": 602.894,
+        "duration": 1118,
         "text": "We're saying fruits, right?",
         "word_tag": [
             [
@@ -8559,7 +8785,8 @@
     },
     {
         "id": 227,
-        "duration": 2015,
+        "startTime": 604.145,
+        "duration": 1884,
         "text": "\u2010 Uh, no. Bounceberries.",
         "word_tag": [
             [
@@ -8594,7 +8821,8 @@
     },
     {
         "id": 228,
-        "duration": 1039,
+        "startTime": 606.315,
+        "duration": 755,
         "text": "We're gonna help you harvest them.",
         "word_tag": [
             [
@@ -8637,7 +8865,8 @@
     },
     {
         "id": 229,
-        "duration": 3939,
+        "startTime": 607.732,
+        "duration": 3280,
         "text": "\u2010 And you will not... uh, stop me?",
         "word_tag": [
             [
@@ -8688,7 +8917,8 @@
     },
     {
         "id": 230,
-        "duration": 1022,
+        "startTime": 611.153,
+        "duration": 884,
         "text": "\u2010 Strong start, Dawn. Keep going.",
         "word_tag": [
             [
@@ -8731,7 +8961,8 @@
     },
     {
         "id": 231,
-        "duration": 3001,
+        "startTime": 612.403,
+        "duration": 2638,
         "text": "\u2010 Because, you don't... own me!",
         "word_tag": [
             [
@@ -8778,7 +9009,8 @@
     },
     {
         "id": 232,
-        "duration": 1014,
+        "startTime": 616.616,
+        "duration": 459,
         "text": "\u2010 Comin' in a little hot, Dawn.",
         "word_tag": [
             [
@@ -8825,7 +9057,8 @@
     },
     {
         "id": 233,
-        "duration": 1927,
+        "startTime": 617.783,
+        "duration": 1222,
         "text": "\u2010 Let's do this.",
         "word_tag": [
             [
@@ -8856,7 +9089,8 @@
     },
     {
         "id": 234,
-        "duration": 2052,
+        "startTime": 619.076,
+        "duration": 1983,
         "text": "I know nothing about bounceberries but they're my jam.",
         "word_tag": [
             [
@@ -8907,7 +9141,8 @@
     },
     {
         "id": 235,
-        "duration": 1960,
+        "startTime": 621.621,
+        "duration": 1401,
         "text": "Ooh, bounceberry jam.",
         "word_tag": [
             [
@@ -8934,7 +9169,8 @@
     },
     {
         "id": 236,
-        "duration": 1018,
+        "startTime": 623.253,
+        "duration": 790,
         "text": "Great idea.",
         "word_tag": [
             [
@@ -8953,7 +9189,8 @@
     },
     {
         "id": 237,
-        "duration": 1006,
+        "startTime": 624.457,
+        "duration": 594,
         "text": "We'll make it together, Hope.",
         "word_tag": [
             [
@@ -8992,7 +9229,8 @@
     },
     {
         "id": 238,
-        "duration": 985,
+        "startTime": 625.542,
+        "duration": 497,
         "text": "\u2010 Sure.",
         "word_tag": [
             [
@@ -9011,7 +9249,8 @@
     },
     {
         "id": 239,
-        "duration": 2006,
+        "startTime": 626.423,
+        "duration": 1625,
         "text": "First lunch, then bounceberry jam.",
         "word_tag": [
             [
@@ -9046,7 +9285,8 @@
     },
     {
         "id": 240,
-        "duration": 3031,
+        "startTime": 628.504,
+        "duration": 2577,
         "text": "In fact, why don't you just make a to\u2010do leaf for us?",
         "word_tag": [
             [
@@ -9113,7 +9353,8 @@
     },
     {
         "id": 241,
-        "duration": 1958,
+        "startTime": 631.84,
+        "duration": 1202,
         "text": "\u2010 Already done. Here you go.",
         "word_tag": [
             [
@@ -9152,7 +9393,8 @@
     },
     {
         "id": 242,
-        "duration": 1035,
+        "startTime": 636.552,
+        "duration": 538,
         "text": "\u2010 So it's settled.",
         "word_tag": [
             [
@@ -9183,7 +9425,8 @@
     },
     {
         "id": 243,
-        "duration": 1961,
+        "startTime": 637.929,
+        "duration": 1124,
         "text": "We'll all harvest the bounceberries together?",
         "word_tag": [
             [
@@ -9222,7 +9465,8 @@
     },
     {
         "id": 244,
-        "duration": 3001,
+        "startTime": 639.561,
+        "duration": 2496,
         "text": "\u2010 Done deal! Bounceberries! Boom!",
         "word_tag": [
             [
@@ -9261,7 +9505,8 @@
     },
     {
         "id": 245,
-        "duration": 1972,
+        "startTime": 642.6,
+        "duration": 1432,
         "text": "\u2010 You're heating up instead of cooling down, Dawn.",
         "word_tag": [
             [
@@ -9316,7 +9561,8 @@
     },
     {
         "id": 246,
-        "duration": 3043,
+        "startTime": 644.352,
+        "duration": 2726,
         "text": "\u2010 I'm sorry, Croods, but we have a system here.",
         "word_tag": [
             [
@@ -9379,7 +9625,8 @@
     },
     {
         "id": 247,
-        "duration": 2920,
+        "startTime": 647.813,
+        "duration": 2188,
         "text": "And, if you disrupt it, there could be chaos.",
         "word_tag": [
             [
@@ -9434,7 +9681,8 @@
     },
     {
         "id": 248,
-        "duration": 1045,
+        "startTime": 650.034,
+        "duration": 1014,
         "text": "\u2010 Works for me.",
         "word_tag": [
             [
@@ -9461,7 +9709,8 @@
     },
     {
         "id": 249,
-        "duration": 2944,
+        "startTime": 654.947,
+        "duration": 2091,
         "text": "\u2010 Ugh. You keep saying system.",
         "word_tag": [
             [
@@ -9500,7 +9749,8 @@
     },
     {
         "id": 250,
-        "duration": 1000,
+        "startTime": 657.407,
+        "duration": 633,
         "text": "What system?",
         "word_tag": [
             [
@@ -9519,7 +9769,8 @@
     },
     {
         "id": 251,
-        "duration": 4019,
+        "startTime": 660.619,
+        "duration": 3461,
         "text": "\u2010 I spent years creating an intricate system to run our farm.",
         "word_tag": [
             [
@@ -9578,7 +9829,8 @@
     },
     {
         "id": 252,
-        "duration": 1010,
+        "startTime": 664.831,
+        "duration": 262,
         "text": "Don't touch the system.",
         "word_tag": [
             [
@@ -9609,7 +9861,8 @@
     },
     {
         "id": 253,
-        "duration": 3910,
+        "startTime": 665.961,
+        "duration": 3045,
         "text": "Our food, our water, even our cooling breezes",
         "word_tag": [
             [
@@ -9656,7 +9909,8 @@
     },
     {
         "id": 254,
-        "duration": 2060,
+        "startTime": 669.086,
+        "duration": 1982,
         "text": "are made possible by the system.",
         "word_tag": [
             [
@@ -9691,7 +9945,8 @@
     },
     {
         "id": 255,
-        "duration": 2006,
+        "startTime": 671.712,
+        "duration": 1365,
         "text": "I said, don't touch the system.",
         "word_tag": [
             [
@@ -9734,7 +9989,8 @@
     },
     {
         "id": 256,
-        "duration": 1982,
+        "startTime": 673.798,
+        "duration": 1263,
         "text": "\"Don't\" is the key word.",
         "word_tag": [
             [
@@ -9777,7 +10033,8 @@
     },
     {
         "id": 257,
-        "duration": 3969,
+        "startTime": 675.634,
+        "duration": 3398,
         "text": "For example, these vines gently gather chicken seal eggs",
         "word_tag": [
             [
@@ -9824,7 +10081,8 @@
     },
     {
         "id": 258,
-        "duration": 3990,
+        "startTime": 679.346,
+        "duration": 3678,
         "text": "and carry them to baskets without cracking a single egg.",
         "word_tag": [
             [
@@ -9875,7 +10133,8 @@
     },
     {
         "id": 259,
-        "duration": 2025,
+        "startTime": 683.267,
+        "duration": 1784,
         "text": "It's a flawless system.",
         "word_tag": [
             [
@@ -9906,7 +10165,8 @@
     },
     {
         "id": 260,
-        "duration": 1058,
+        "startTime": 689.398,
+        "duration": 699,
         "text": "Ugh!",
         "word_tag": [
             [
@@ -9921,7 +10181,8 @@
     },
     {
         "id": 261,
-        "duration": 3944,
+        "startTime": 692.567,
+        "duration": 3433,
         "text": "Which is why I said... don't touch it.",
         "word_tag": [
             [
@@ -9972,7 +10233,8 @@
     },
     {
         "id": 262,
-        "duration": 1044,
+        "startTime": 696.028,
+        "duration": 1018,
         "text": "Whew. There you are.",
         "word_tag": [
             [
@@ -10003,7 +10265,8 @@
     },
     {
         "id": 263,
-        "duration": 1994,
+        "startTime": 697.489,
+        "duration": 1553,
         "text": "I've been looking all over the farm for you guys.",
         "word_tag": [
             [
@@ -10058,7 +10321,8 @@
     },
     {
         "id": 264,
-        "duration": 3013,
+        "startTime": 699.448,
+        "duration": 2609,
         "text": "Hey, uh, could someone please move my cup closer to my\u2010\u2010",
         "word_tag": [
             [
@@ -10117,7 +10381,8 @@
     },
     {
         "id": 265,
-        "duration": 2032,
+        "startTime": 709.334,
+        "duration": 1731,
         "text": "\u2010 If your system's so great, why did it break?",
         "word_tag": [
             [
@@ -10176,7 +10441,8 @@
     },
     {
         "id": 266,
-        "duration": 2027,
+        "startTime": 711.674,
+        "duration": 1420,
         "text": "\u2010 Yeah, we don't break.",
         "word_tag": [
             [
@@ -10215,7 +10481,8 @@
     },
     {
         "id": 267,
-        "duration": 1993,
+        "startTime": 713.963,
+        "duration": 1126,
         "text": "Guess we're better than your system.",
         "word_tag": [
             [
@@ -10254,7 +10521,8 @@
     },
     {
         "id": 268,
-        "duration": 2005,
+        "startTime": 715.923,
+        "duration": 1174,
         "text": "\u2010 You? Better than my system?",
         "word_tag": [
             [
@@ -10293,7 +10561,8 @@
     },
     {
         "id": 269,
-        "duration": 73,
+        "startTime": 720.136,
+        "duration": -50,
         "text": "Preposterous.",
         "word_tag": [
             [
@@ -10308,7 +10577,8 @@
     },
     {
         "id": 270,
-        "duration": 2940,
+        "startTime": 720.888,
+        "duration": 2140,
         "text": "\u2010 Try us. On the bounceberries.",
         "word_tag": [
             [
@@ -10347,7 +10617,8 @@
     },
     {
         "id": 271,
-        "duration": 1040,
+        "startTime": 723.307,
+        "duration": 763,
         "text": "\u2010 Eep can do it, Phil.",
         "word_tag": [
             [
@@ -10386,7 +10657,8 @@
     },
     {
         "id": 272,
-        "duration": 2015,
+        "startTime": 724.726,
+        "duration": 1361,
         "text": "When she goes after something, she gets it.",
         "word_tag": [
             [
@@ -10433,7 +10705,8 @@
     },
     {
         "id": 273,
-        "duration": 1001,
+        "startTime": 726.894,
+        "duration": 196,
         "text": "Like my heart.",
         "word_tag": [
             [
@@ -10456,7 +10729,8 @@
     },
     {
         "id": 274,
-        "duration": 3981,
+        "startTime": 730.48,
+        "duration": 3549,
         "text": "\u2010 Well, unlike your heart, I can't risk the bounceberry harvest.",
         "word_tag": [
             [
@@ -10523,7 +10797,8 @@
     },
     {
         "id": 275,
-        "duration": 1989,
+        "startTime": 734.32,
+        "duration": 1701,
         "text": "They're too delicious to squander.",
         "word_tag": [
             [
@@ -10558,7 +10833,8 @@
     },
     {
         "id": 276,
-        "duration": 3027,
+        "startTime": 736.239,
+        "duration": 2811,
         "text": "So only the Bettermans can tame the bouncy beast.",
         "word_tag": [
             [
@@ -10605,7 +10881,8 @@
     },
     {
         "id": 277,
-        "duration": 1951,
+        "startTime": 739.53,
+        "duration": 1474,
         "text": "\u2010 What? We hate doing it.",
         "word_tag": [
             [
@@ -10644,7 +10921,8 @@
     },
     {
         "id": 278,
-        "duration": 1090,
+        "startTime": 741.073,
+        "duration": 1024,
         "text": "We only do it because we have no choice.",
         "word_tag": [
             [
@@ -10691,7 +10969,8 @@
     },
     {
         "id": 279,
-        "duration": 2943,
+        "startTime": 742.995,
+        "duration": 2047,
         "text": "And you almost die during every harvest.",
         "word_tag": [
             [
@@ -10730,7 +11009,8 @@
     },
     {
         "id": 280,
-        "duration": 1031,
+        "startTime": 745.453,
+        "duration": 623,
         "text": "Oh, no!",
         "word_tag": [
             [
@@ -10753,7 +11033,8 @@
     },
     {
         "id": 281,
-        "duration": 1942,
+        "startTime": 746.788,
+        "duration": 1232,
         "text": "No, no, no!",
         "word_tag": [
             [
@@ -10784,7 +11065,8 @@
     },
     {
         "id": 282,
-        "duration": 1985,
+        "startTime": 749.166,
+        "duration": 1835,
         "text": "Help! They're gonna get me!",
         "word_tag": [
             [
@@ -10827,7 +11109,8 @@
     },
     {
         "id": 283,
-        "duration": 1072,
+        "startTime": 751.043,
+        "duration": 1033,
         "text": "\u2010 This year we have a choice.",
         "word_tag": [
             [
@@ -10866,7 +11149,8 @@
     },
     {
         "id": 284,
-        "duration": 3015,
+        "startTime": 752.793,
+        "duration": 2301,
         "text": "The Croods wanna help, so let them.",
         "word_tag": [
             [
@@ -10913,7 +11197,8 @@
     },
     {
         "id": 285,
-        "duration": 998,
+        "startTime": 755.963,
+        "duration": 131,
         "text": "\u2010 You're right.",
         "word_tag": [
             [
@@ -10940,7 +11225,8 @@
     },
     {
         "id": 286,
-        "duration": 2980,
+        "startTime": 756.971,
+        "duration": 2106,
         "text": "Why stand in the way of the Croods' happiness?",
         "word_tag": [
             [
@@ -10991,7 +11277,8 @@
     },
     {
         "id": 287,
-        "duration": 2989,
+        "startTime": 759.801,
+        "duration": 2268,
         "text": "Besides, what's the worst that could happen?",
         "word_tag": [
             [
@@ -11038,7 +11325,8 @@
     },
     {
         "id": 288,
-        "duration": 1954,
+        "startTime": 762.721,
+        "duration": 1305,
         "text": "Ugh.",
         "word_tag": [
             [
@@ -11053,7 +11341,8 @@
     },
     {
         "id": 289,
-        "duration": 2046,
+        "startTime": 765.057,
+        "duration": 1994,
         "text": "\u2010 Boy, those eggs were really up there, huh?",
         "word_tag": [
             [
@@ -11108,7 +11397,8 @@
     },
     {
         "id": 290,
-        "duration": 2019,
+        "startTime": 768.309,
+        "duration": 1740,
         "text": "\u2010 Bounceberries, they may look fun,",
         "word_tag": [
             [
@@ -11147,7 +11437,8 @@
     },
     {
         "id": 291,
-        "duration": 993,
+        "startTime": 770.52,
+        "duration": 525,
         "text": "but they're not.",
         "word_tag": [
             [
@@ -11174,7 +11465,8 @@
     },
     {
         "id": 292,
-        "duration": 1010,
+        "startTime": 771.48,
+        "duration": 578,
         "text": "\u2010 Because they're heavy?",
         "word_tag": [
             [
@@ -11205,7 +11497,8 @@
     },
     {
         "id": 293,
-        "duration": 1014,
+        "startTime": 772.61,
+        "duration": 465,
         "text": "No problem. \u2010 No.",
         "word_tag": [
             [
@@ -11236,7 +11529,8 @@
     },
     {
         "id": 294,
-        "duration": 1973,
+        "startTime": 773.774,
+        "duration": 1276,
         "text": "\u2010 Poisonous? \u2010 Seriously?",
         "word_tag": [
             [
@@ -11267,7 +11561,8 @@
     },
     {
         "id": 295,
-        "duration": 1977,
+        "startTime": 775.525,
+        "duration": 1504,
         "text": "They're called bounceberries.",
         "word_tag": [
             [
@@ -11294,7 +11589,8 @@
     },
     {
         "id": 296,
-        "duration": 1013,
+        "startTime": 777.318,
+        "duration": 726,
         "text": "\u2010 Right.",
         "word_tag": [
             [
@@ -11313,7 +11609,8 @@
     },
     {
         "id": 297,
-        "duration": -53010,
+        "startTime": 779.738,
+        "duration": -53675,
         "text": "So they stink.",
         "word_tag": [
             [
@@ -11336,7 +11633,8 @@
     },
     {
         "id": 298,
-        "duration": 981,
+        "startTime": 780.657,
+        "duration": 389,
         "text": "\u2010 So close.",
         "word_tag": [
             [
@@ -11359,7 +11657,8 @@
     },
     {
         "id": 299,
-        "duration": 1047,
+        "startTime": 781.49,
+        "duration": 606,
         "text": "But I think they bounce.",
         "word_tag": [
             [
@@ -11390,7 +11689,8 @@
     },
     {
         "id": 300,
-        "duration": 1964,
+        "startTime": 782.99,
+        "duration": 1073,
         "text": "Because bounce\u2010berries.",
         "word_tag": [
             [
@@ -11409,7 +11709,8 @@
     },
     {
         "id": 301,
-        "duration": 1956,
+        "startTime": 784.662,
+        "duration": 1360,
         "text": "Ohh!",
         "word_tag": [
             [
@@ -11424,7 +11725,8 @@
     },
     {
         "id": 302,
-        "duration": 1977,
+        "startTime": 786.245,
+        "duration": 1756,
         "text": "\u2010 And they're hard to catch",
         "word_tag": [
             [
@@ -11459,7 +11761,8 @@
     },
     {
         "id": 303,
-        "duration": 1048,
+        "startTime": 788.038,
+        "duration": 1013,
         "text": "because the moment they leave the bush,",
         "word_tag": [
             [
@@ -11498,7 +11801,8 @@
     },
     {
         "id": 304,
-        "duration": 1952,
+        "startTime": 789.539,
+        "duration": 1466,
         "text": "they bounce for the hills.",
         "word_tag": [
             [
@@ -11529,7 +11833,8 @@
     },
     {
         "id": 305,
-        "duration": 1021,
+        "startTime": 791.082,
+        "duration": 947,
         "text": "\u2010 No problem.",
         "word_tag": [
             [
@@ -11552,6 +11857,7 @@
     },
     {
         "id": 306,
+        "startTime": 793,
         "duration": 3010,
         "text": "Eep, Guy, you run point and drive the berries forward.",
         "word_tag": [
@@ -11611,7 +11917,8 @@
     },
     {
         "id": 307,
-        "duration": 1081,
+        "startTime": 796.13,
+        "duration": 964,
         "text": "Gran, Sandy, you're in the wings.",
         "word_tag": [
             [
@@ -11658,7 +11965,8 @@
     },
     {
         "id": 308,
-        "duration": 2002,
+        "startTime": 797.967,
+        "duration": 1131,
         "text": "And you'll all herd the berries to this point here",
         "word_tag": [
             [
@@ -11709,7 +12017,8 @@
     },
     {
         "id": 309,
-        "duration": 1040,
+        "startTime": 800.008,
+        "duration": 1032,
         "text": "so Ugga and I can catch them.",
         "word_tag": [
             [
@@ -11748,7 +12057,8 @@
     },
     {
         "id": 310,
-        "duration": 1994,
+        "startTime": 801.427,
+        "duration": 1609,
         "text": "\u2010 What about me? What's my job?",
         "word_tag": [
             [
@@ -11795,7 +12105,8 @@
     },
     {
         "id": 311,
-        "duration": 3002,
+        "startTime": 803.386,
+        "duration": 2654,
         "text": "\u2010 Oh, Dawn. This is too dangerous for you.",
         "word_tag": [
             [
@@ -11850,7 +12161,8 @@
     },
     {
         "id": 312,
-        "duration": 3031,
+        "startTime": 806.431,
+        "duration": 2643,
         "text": "You could get bruised. Or bumped. Or tired.",
         "word_tag": [
             [
@@ -11901,7 +12213,8 @@
     },
     {
         "id": 313,
-        "duration": 1998,
+        "startTime": 809.768,
+        "duration": 1306,
         "text": "You can watch from behind that rock.",
         "word_tag": [
             [
@@ -11940,7 +12253,8 @@
     },
     {
         "id": 314,
-        "duration": 2994,
+        "startTime": 811.769,
+        "duration": 2301,
         "text": "\u2010 No. You can't make me watch my life anymore.",
         "word_tag": [
             [
@@ -11999,7 +12313,8 @@
     },
     {
         "id": 315,
-        "duration": 3938,
+        "startTime": 814.73,
+        "duration": 3281,
         "text": "'Cause now I'm gonna live it!",
         "word_tag": [
             [
@@ -12042,7 +12357,8 @@
     },
     {
         "id": 316,
-        "duration": 2043,
+        "startTime": 819.36,
+        "duration": 1719,
         "text": "I\u2010I mean, if that's okay with you, Mom.",
         "word_tag": [
             [
@@ -12097,7 +12413,8 @@
     },
     {
         "id": 317,
-        "duration": 1943,
+        "startTime": 821.822,
+        "duration": 1203,
         "text": "\u2010 Nice heat adjustment, Dawn.",
         "word_tag": [
             [
@@ -12132,7 +12449,8 @@
     },
     {
         "id": 318,
-        "duration": 3006,
+        "startTime": 823.282,
+        "duration": 2752,
         "text": "\u2010 Very well, let's do a trial run with a few bushes.",
         "word_tag": [
             [
@@ -12199,7 +12517,8 @@
     },
     {
         "id": 319,
-        "duration": 1976,
+        "startTime": 826.373,
+        "duration": 1640,
         "text": "A dry bounce, if you will.",
         "word_tag": [
             [
@@ -12238,7 +12557,8 @@
     },
     {
         "id": 320,
-        "duration": 1035,
+        "startTime": 828.161,
+        "duration": 890,
         "text": "But first, some rules.",
         "word_tag": [
             [
@@ -12269,7 +12589,8 @@
     },
     {
         "id": 321,
-        "duration": 3960,
+        "startTime": 829.54,
+        "duration": 3474,
         "text": "Rule number one, do not eat the bounceberries when harvesting them.",
         "word_tag": [
             [
@@ -12328,7 +12649,8 @@
     },
     {
         "id": 322,
-        "duration": 1071,
+        "startTime": 833.168,
+        "duration": 919,
         "text": "Here's why\u2010\u2010",
         "word_tag": [
             [
@@ -12347,7 +12669,8 @@
     },
     {
         "id": 323,
-        "duration": 2016,
+        "startTime": 836.794,
+        "duration": 1301,
         "text": "Go!",
         "word_tag": [
             [
@@ -12362,7 +12685,8 @@
     },
     {
         "id": 324,
-        "duration": 3006,
+        "startTime": 843.885,
+        "duration": 2209,
         "text": "Ha!",
         "word_tag": [
             [
@@ -12377,7 +12701,8 @@
     },
     {
         "id": 325,
-        "duration": 1947,
+        "startTime": 846.971,
+        "duration": 1073,
         "text": "\u2010 Wanna bounce, Guy\u2010lyface?",
         "word_tag": [
             [
@@ -12412,7 +12737,8 @@
     },
     {
         "id": 326,
-        "duration": 1960,
+        "startTime": 848.472,
+        "duration": 1535,
         "text": "\u2010 Only if I'm bouncing with you, Eepykins.",
         "word_tag": [
             [
@@ -12463,7 +12789,8 @@
     },
     {
         "id": 327,
-        "duration": 60,
+        "startTime": 850.101,
+        "duration": -31,
         "text": "Ooh!",
         "word_tag": [
             [
@@ -12478,7 +12805,8 @@
     },
     {
         "id": 328,
-        "duration": 1947,
+        "startTime": 850.73,
+        "duration": 1290,
         "text": "\u2010 That's three pet names today!",
         "word_tag": [
             [
@@ -12517,7 +12845,8 @@
     },
     {
         "id": 329,
-        "duration": 998,
+        "startTime": 852.226,
+        "duration": 794,
         "text": "Three!",
         "word_tag": [
             [
@@ -12532,7 +12861,8 @@
     },
     {
         "id": 330,
-        "duration": 1042,
+        "startTime": 853.227,
+        "duration": 837,
         "text": "Way too many.",
         "word_tag": [
             [
@@ -12555,7 +12885,8 @@
     },
     {
         "id": 331,
-        "duration": 1000,
+        "startTime": 864.072,
+        "duration": 935,
         "text": "Focus!",
         "word_tag": [
             [
@@ -12570,7 +12901,8 @@
     },
     {
         "id": 332,
-        "duration": 2036,
+        "startTime": 871.038,
+        "duration": 2001,
         "text": "\u2010 That's not harvesting. That's frolicking.",
         "word_tag": [
             [
@@ -12617,7 +12949,8 @@
     },
     {
         "id": 333,
-        "duration": 2992,
+        "startTime": 873.418,
+        "duration": 2615,
         "text": "\u2010 If you're enjoying it, you're doing it wrong.",
         "word_tag": [
             [
@@ -12676,7 +13009,8 @@
     },
     {
         "id": 334,
-        "duration": 3977,
+        "startTime": 892.267,
+        "duration": 3736,
         "text": "\u2010 My dad was right. This is just like a kangadillo chase!",
         "word_tag": [
             [
@@ -12739,7 +13073,8 @@
     },
     {
         "id": 335,
-        "duration": 2081,
+        "startTime": 896.062,
+        "duration": 2025,
         "text": "\u2010 Even better, everyone's cooperating and happy\u2010\u2010",
         "word_tag": [
             [
@@ -12782,7 +13117,8 @@
     },
     {
         "id": 336,
-        "duration": 977,
+        "startTime": 898.899,
+        "duration": 167,
         "text": "Aah!",
         "word_tag": [
             [
@@ -12797,7 +13133,8 @@
     },
     {
         "id": 337,
-        "duration": -52998,
+        "startTime": 899.691,
+        "duration": -53620,
         "text": "Except me.",
         "word_tag": [
             [
@@ -12816,7 +13153,8 @@
     },
     {
         "id": 338,
-        "duration": 2985,
+        "startTime": 900.734,
+        "duration": 2324,
         "text": "\u2010 Your head looks like a bounceberry.",
         "word_tag": [
             [
@@ -12855,7 +13193,8 @@
     },
     {
         "id": 339,
-        "duration": 1980,
+        "startTime": 903.611,
+        "duration": 1430,
         "text": "Yah!",
         "word_tag": [
             [
@@ -12870,7 +13209,8 @@
     },
     {
         "id": 340,
-        "duration": 1985,
+        "startTime": 908.575,
+        "duration": 1467,
         "text": "\u2010 Oh, no! Where are Mom and Dad?",
         "word_tag": [
             [
@@ -12921,7 +13261,8 @@
     },
     {
         "id": 341,
-        "duration": 3051,
+        "startTime": 910.451,
+        "duration": 2645,
         "text": "\u2010 They're MIA! Sandy, break those berries.",
         "word_tag": [
             [
@@ -12972,7 +13313,8 @@
     },
     {
         "id": 342,
-        "duration": 1056,
+        "startTime": 919.001,
+        "duration": 1055,
         "text": "I got this one!",
         "word_tag": [
             [
@@ -12999,7 +13341,8 @@
     },
     {
         "id": 343,
-        "duration": 1983,
+        "startTime": 920.586,
+        "duration": 1455,
         "text": "No, I don't!",
         "word_tag": [
             [
@@ -13030,7 +13373,8 @@
     },
     {
         "id": 344,
-        "duration": 1031,
+        "startTime": 923.423,
+        "duration": 650,
         "text": "Dawn!",
         "word_tag": [
             [
@@ -13045,7 +13389,8 @@
     },
     {
         "id": 345,
-        "duration": 1925,
+        "startTime": 924.758,
+        "duration": 1242,
         "text": "Whoa!",
         "word_tag": [
             [
@@ -13060,7 +13405,8 @@
     },
     {
         "id": 346,
-        "duration": 1996,
+        "startTime": 926.844,
+        "duration": 1236,
         "text": "\u2010 Never fear. I'll catch you.",
         "word_tag": [
             [
@@ -13103,7 +13449,8 @@
     },
     {
         "id": 347,
-        "duration": 1006,
+        "startTime": 931.431,
+        "duration": 618,
         "text": "Sorry, Dad!",
         "word_tag": [
             [
@@ -13126,7 +13473,8 @@
     },
     {
         "id": 348,
-        "duration": 1037,
+        "startTime": 932.515,
+        "duration": 573,
         "text": "\u2010 Nice catch, Phil.",
         "word_tag": [
             [
@@ -13157,7 +13505,8 @@
     },
     {
         "id": 349,
-        "duration": 1968,
+        "startTime": 934.851,
+        "duration": 1202,
         "text": "\u2010 Sorry, Mom!",
         "word_tag": [
             [
@@ -13184,7 +13533,8 @@
     },
     {
         "id": 350,
-        "duration": 2993,
+        "startTime": 936.562,
+        "duration": 2487,
         "text": "\u2010 Oh, no! I think these bounceberries are going for a swim.",
         "word_tag": [
             [
@@ -13251,7 +13601,8 @@
     },
     {
         "id": 351,
-        "duration": 1963,
+        "startTime": 939.523,
+        "duration": 1492,
         "text": "\u2010 Oh, no, they're not.",
         "word_tag": [
             [
@@ -13294,7 +13645,8 @@
     },
     {
         "id": 352,
-        "duration": 1965,
+        "startTime": 948.698,
+        "duration": 1336,
         "text": "\u2010 Who wants bounceberries?",
         "word_tag": [
             [
@@ -13321,7 +13673,8 @@
     },
     {
         "id": 353,
-        "duration": 1970,
+        "startTime": 950.37,
+        "duration": 1637,
         "text": "\u2010 I do. Eat up, gang.",
         "word_tag": [
             [
@@ -13364,7 +13717,8 @@
     },
     {
         "id": 354,
-        "duration": 2008,
+        "startTime": 955.205,
+        "duration": 1823,
         "text": "Mm! Mm!",
         "word_tag": [
             [
@@ -13387,7 +13741,8 @@
     },
     {
         "id": 355,
-        "duration": 989,
+        "startTime": 958.5,
+        "duration": 539,
         "text": "No!",
         "word_tag": [
             [
@@ -13402,7 +13757,8 @@
     },
     {
         "id": 356,
-        "duration": -51968,
+        "startTime": 959.421,
+        "duration": -52347,
         "text": "I told you not to eat them.",
         "word_tag": [
             [
@@ -13441,7 +13797,8 @@
     },
     {
         "id": 357,
-        "duration": 2006,
+        "startTime": 964.005,
+        "duration": 2001,
         "text": "\u2010 Why not? We caught it. We eat it.",
         "word_tag": [
             [
@@ -13496,7 +13853,8 @@
     },
     {
         "id": 358,
-        "duration": 3035,
+        "startTime": 966.091,
+        "duration": 2953,
         "text": "\u2010 Right. Also, sticky.",
         "word_tag": [
             [
@@ -13531,7 +13889,8 @@
     },
     {
         "id": 359,
-        "duration": 2015,
+        "startTime": 969.469,
+        "duration": 1592,
         "text": "Woo\u2010hoo! \u2010 No!",
         "word_tag": [
             [
@@ -13558,7 +13917,8 @@
     },
     {
         "id": 360,
-        "duration": 986,
+        "startTime": 971.638,
+        "duration": 411,
         "text": "\u2010 Whoo!",
         "word_tag": [
             [
@@ -13577,7 +13937,8 @@
     },
     {
         "id": 361,
-        "duration": 1027,
+        "startTime": 972.514,
+        "duration": 564,
         "text": "I'm alive!",
         "word_tag": [
             [
@@ -13600,7 +13961,8 @@
     },
     {
         "id": 362,
-        "duration": 2006,
+        "startTime": 973.807,
+        "duration": 1279,
         "text": "And stuck.",
         "word_tag": [
             [
@@ -13619,7 +13981,8 @@
     },
     {
         "id": 363,
-        "duration": 986,
+        "startTime": 975.893,
+        "duration": 182,
         "text": "\u2010 Ugh.",
         "word_tag": [
             [
@@ -13638,7 +14001,8 @@
     },
     {
         "id": 364,
-        "duration": 1955,
+        "startTime": 976.774,
+        "duration": 1258,
         "text": "\u2010 I don't mind being stuck.",
         "word_tag": [
             [
@@ -13677,7 +14041,8 @@
     },
     {
         "id": 365,
-        "duration": 986,
+        "startTime": 978.352,
+        "duration": 669,
         "text": "I mind.",
         "word_tag": [
             [
@@ -13696,7 +14061,8 @@
     },
     {
         "id": 366,
-        "duration": 1041,
+        "startTime": 979.234,
+        "duration": 830,
         "text": "Stop sticking!",
         "word_tag": [
             [
@@ -13715,7 +14081,8 @@
     },
     {
         "id": 367,
-        "duration": 1025,
+        "startTime": 981.565,
+        "duration": 516,
         "text": "No, no, no, Sandy, don't\u2010\u2010",
         "word_tag": [
             [
@@ -13758,7 +14125,8 @@
     },
     {
         "id": 368,
-        "duration": 1993,
+        "startTime": 984.15,
+        "duration": 1858,
         "text": "Uh... never mind, sweetie.",
         "word_tag": [
             [
@@ -13793,7 +14161,8 @@
     },
     {
         "id": 369,
-        "duration": 2048,
+        "startTime": 986.11,
+        "duration": 1949,
         "text": "\u2010 That's why you can't eat them during the harvest.",
         "word_tag": [
             [
@@ -13852,7 +14221,8 @@
     },
     {
         "id": 370,
-        "duration": 2031,
+        "startTime": 988.614,
+        "duration": 1478,
         "text": "The berry juice makes you sticky.",
         "word_tag": [
             [
@@ -13887,7 +14257,8 @@
     },
     {
         "id": 371,
-        "duration": 3907,
+        "startTime": 990.948,
+        "duration": 3053,
         "text": "And when you're sticky, you can't harvest berries.",
         "word_tag": [
             [
@@ -13942,7 +14313,8 @@
     },
     {
         "id": 372,
-        "duration": 1000,
+        "startTime": 994.036,
+        "duration": 967,
         "text": "Just ask Hope.",
         "word_tag": [
             [
@@ -13965,7 +14337,8 @@
     },
     {
         "id": 373,
-        "duration": 1001,
+        "startTime": 999.29,
+        "duration": 740,
         "text": "\u2010 Yep.",
         "word_tag": [
             [
@@ -13984,7 +14357,8 @@
     },
     {
         "id": 374,
-        "duration": 1027,
+        "startTime": 1000.334,
+        "duration": 726,
         "text": "I learned the hard way.",
         "word_tag": [
             [
@@ -14015,7 +14389,8 @@
     },
     {
         "id": 375,
-        "duration": 1989,
+        "startTime": 1001.631,
+        "duration": 1421,
         "text": "And I guess I get to do it again this year",
         "word_tag": [
             [
@@ -14066,7 +14441,8 @@
     },
     {
         "id": 376,
-        "duration": 3948,
+        "startTime": 1003.547,
+        "duration": 3455,
         "text": "on top of completely losing control of everything in my life!",
         "word_tag": [
             [
@@ -14121,7 +14497,8 @@
     },
     {
         "id": 377,
-        "duration": 3002,
+        "startTime": 1007.048,
+        "duration": 2958,
         "text": "\u2010 So, now that you're all too sticky to finish the harvest,",
         "word_tag": [
             [
@@ -14188,7 +14565,8 @@
     },
     {
         "id": 378,
-        "duration": 2074,
+        "startTime": 1010.092,
+        "duration": 1991,
         "text": "we have to find another solution so we don't have to do it.",
         "word_tag": [
             [
@@ -14255,7 +14633,8 @@
     },
     {
         "id": 379,
-        "duration": 2939,
+        "startTime": 1012.854,
+        "duration": 2170,
         "text": "\u2010 Huh? Huh? What about us?",
         "word_tag": [
             [
@@ -14298,7 +14677,8 @@
     },
     {
         "id": 380,
-        "duration": 1069,
+        "startTime": 1015.264,
+        "duration": 831,
         "text": "They just left us.",
         "word_tag": [
             [
@@ -14325,7 +14705,8 @@
     },
     {
         "id": 381,
-        "duration": 2906,
+        "startTime": 1016.975,
+        "duration": 2028,
         "text": "\u2010 You think that's bad? I'm their daughter.",
         "word_tag": [
             [
@@ -14380,7 +14761,8 @@
     },
     {
         "id": 382,
-        "duration": -51973,
+        "startTime": 1019.061,
+        "duration": -52028,
         "text": "\u2010 Don't worry. I'll get us free.",
         "word_tag": [
             [
@@ -14431,7 +14813,8 @@
     },
     {
         "id": 383,
-        "duration": 1996,
+        "startTime": 1021.355,
+        "duration": 1676,
         "text": "Just need to use some muscle.",
         "word_tag": [
             [
@@ -14466,7 +14849,8 @@
     },
     {
         "id": 384,
-        "duration": 1025,
+        "startTime": 1025.025,
+        "duration": 1002,
         "text": "Or a lot of muscle.",
         "word_tag": [
             [
@@ -14497,7 +14881,8 @@
     },
     {
         "id": 385,
-        "duration": 1998,
+        "startTime": 1028.278,
+        "duration": 1747,
         "text": "\u2010 Or we wait for them to come back.",
         "word_tag": [
             [
@@ -14544,7 +14929,8 @@
     },
     {
         "id": 386,
-        "duration": 2019,
+        "startTime": 1030.279,
+        "duration": 1767,
         "text": "\u2010 Hang tight! I'll kick you loose.",
         "word_tag": [
             [
@@ -14591,7 +14977,8 @@
     },
     {
         "id": 387,
-        "duration": 1959,
+        "startTime": 1032.49,
+        "duration": 1518,
         "text": "\u2010 No! Anything but your\u2010\u2010",
         "word_tag": [
             [
@@ -14622,7 +15009,8 @@
     },
     {
         "id": 388,
-        "duration": 3938,
+        "startTime": 1034.701,
+        "duration": 3307,
         "text": "\u2010 Guy, get your face off my feet.",
         "word_tag": [
             [
@@ -14669,7 +15057,8 @@
     },
     {
         "id": 389,
-        "duration": 2067,
+        "startTime": 1039.122,
+        "duration": 1957,
         "text": "\u2010 It's okay, guys. Thunk'll save us.",
         "word_tag": [
             [
@@ -14724,7 +15113,8 @@
     },
     {
         "id": 390,
-        "duration": 2018,
+        "startTime": 1042.75,
+        "duration": 1343,
         "text": "That's good.",
         "word_tag": [
             [
@@ -14747,7 +15137,8 @@
     },
     {
         "id": 391,
-        "duration": 3905,
+        "startTime": 1044.961,
+        "duration": 3040,
         "text": "\u2010 Cup... too far.",
         "word_tag": [
             [
@@ -14778,7 +15169,8 @@
     },
     {
         "id": 392,
-        "duration": 1948,
+        "startTime": 1049.883,
+        "duration": 1153,
         "text": "\u2010 They're not coming back.",
         "word_tag": [
             [
@@ -14813,7 +15205,8 @@
     },
     {
         "id": 393,
-        "duration": 3964,
+        "startTime": 1051.39,
+        "duration": 3613,
         "text": "\u2010 It's fine. Because we're going to pull ourselves apart on three.",
         "word_tag": [
             [
@@ -14884,7 +15277,8 @@
     },
     {
         "id": 394,
-        "duration": 998,
+        "startTime": 1055.055,
+        "duration": 948,
         "text": "Ready?",
         "word_tag": [
             [
@@ -14899,7 +15293,8 @@
     },
     {
         "id": 395,
-        "duration": 1071,
+        "startTime": 1056.056,
+        "duration": 1020,
         "text": "One\u2010\u2010 \u2010 For freedom!",
         "word_tag": [
             [
@@ -14926,7 +15321,8 @@
     },
     {
         "id": 396,
-        "duration": 3923,
+        "startTime": 1065.773,
+        "duration": 3227,
         "text": "\u2010 That didn't work. But it did bring us closer together.",
         "word_tag": [
             [
@@ -14989,7 +15385,8 @@
     },
     {
         "id": 397,
-        "duration": 3014,
+        "startTime": 1069.031,
+        "duration": 2986,
         "text": "So close, it's hard to imagine being apart from you.",
         "word_tag": [
             [
@@ -15048,7 +15445,8 @@
     },
     {
         "id": 398,
-        "duration": 2031,
+        "startTime": 1072.197,
+        "duration": 1853,
         "text": "\u2010 Oh, Guy. You're so romantic.",
         "word_tag": [
             [
@@ -15095,7 +15493,8 @@
     },
     {
         "id": 399,
-        "duration": 1989,
+        "startTime": 1074.532,
+        "duration": 1510,
         "text": "\u2010 No. No romance.",
         "word_tag": [
             [
@@ -15126,7 +15525,8 @@
     },
     {
         "id": 400,
-        "duration": 1018,
+        "startTime": 1076.451,
+        "duration": 612,
         "text": "We're stuck here forever.",
         "word_tag": [
             [
@@ -15157,7 +15557,8 @@
     },
     {
         "id": 401,
-        "duration": 2020,
+        "startTime": 1077.661,
+        "duration": 1425,
         "text": "We need to decide which one of us we're gonna eat first.",
         "word_tag": [
             [
@@ -15224,7 +15625,8 @@
     },
     {
         "id": 402,
-        "duration": 2006,
+        "startTime": 1080.497,
+        "duration": 1558,
         "text": "Ha\u2010ha! I knew you'd come back.",
         "word_tag": [
             [
@@ -15267,7 +15669,8 @@
     },
     {
         "id": 403,
-        "duration": 1977,
+        "startTime": 1082.583,
+        "duration": 1452,
         "text": "Didn't doubt it for a second.",
         "word_tag": [
             [
@@ -15306,7 +15709,8 @@
     },
     {
         "id": 404,
-        "duration": 1051,
+        "startTime": 1084.381,
+        "duration": 708,
         "text": "You\u2010you can get us free, right?",
         "word_tag": [
             [
@@ -15345,7 +15749,8 @@
     },
     {
         "id": 405,
-        "duration": 1940,
+        "startTime": 1085.919,
+        "duration": 1112,
         "text": "For freedom!",
         "word_tag": [
             [
@@ -15364,7 +15769,8 @@
     },
     {
         "id": 406,
-        "duration": 1996,
+        "startTime": 1087.336,
+        "duration": 1693,
         "text": "\u2010 Of course. All it takes is water.",
         "word_tag": [
             [
@@ -15411,7 +15817,8 @@
     },
     {
         "id": 407,
-        "duration": 1973,
+        "startTime": 1091.884,
+        "duration": 1177,
         "text": "\u2010 Water? That's it?",
         "word_tag": [
             [
@@ -15446,7 +15853,8 @@
     },
     {
         "id": 408,
-        "duration": 1977,
+        "startTime": 1093.634,
+        "duration": 1406,
         "text": "Why didn't you free us right away then?",
         "word_tag": [
             [
@@ -15493,7 +15901,8 @@
     },
     {
         "id": 409,
-        "duration": 2973,
+        "startTime": 1095.429,
+        "duration": 2586,
         "text": "\u2010 Free you? When the bounceberries are ready to be harvested?",
         "word_tag": [
             [
@@ -15552,7 +15961,8 @@
     },
     {
         "id": 410,
-        "duration": 1043,
+        "startTime": 1098.182,
+        "duration": 879,
         "text": "One must have priorities.",
         "word_tag": [
             [
@@ -15579,7 +15989,8 @@
     },
     {
         "id": 411,
-        "duration": 3973,
+        "startTime": 1099.643,
+        "duration": 3394,
         "text": "\u2010 And priority number one is making sure we don't have to do it.",
         "word_tag": [
             [
@@ -15650,7 +16061,8 @@
     },
     {
         "id": 412,
-        "duration": 3023,
+        "startTime": 1103.398,
+        "duration": 2664,
         "text": "\u2010 Yes, as we recently established, I don't enjoy it.",
         "word_tag": [
             [
@@ -15713,7 +16125,8 @@
     },
     {
         "id": 413,
-        "duration": 1994,
+        "startTime": 1106.647,
+        "duration": 1411,
         "text": "And you don't follow directions.",
         "word_tag": [
             [
@@ -15748,7 +16161,8 @@
     },
     {
         "id": 414,
-        "duration": 2015,
+        "startTime": 1108.608,
+        "duration": 1467,
         "text": "But now it's in good hands.",
         "word_tag": [
             [
@@ -15787,7 +16201,8 @@
     },
     {
         "id": 415,
-        "duration": 1948,
+        "startTime": 1110.777,
+        "duration": 1248,
         "text": "Or should I say fists?",
         "word_tag": [
             [
@@ -15818,7 +16233,8 @@
     },
     {
         "id": 416,
-        "duration": 1033,
+        "startTime": 1112.278,
+        "duration": 782,
         "text": "\u2010 Why would you say fists?",
         "word_tag": [
             [
@@ -15853,7 +16269,8 @@
     },
     {
         "id": 417,
-        "duration": 1036,
+        "startTime": 1117.159,
+        "duration": 892,
         "text": "Punch monkeys?",
         "word_tag": [
             [
@@ -15872,7 +16289,8 @@
     },
     {
         "id": 418,
-        "duration": 977,
+        "startTime": 1118.535,
+        "duration": 495,
         "text": "\u2010 Not good.",
         "word_tag": [
             [
@@ -15895,7 +16313,8 @@
     },
     {
         "id": 419,
-        "duration": 3061,
+        "startTime": 1119.327,
+        "duration": 2766,
         "text": "\u2010 Why? Because punch monkeys do nothing but punch, steal, lie, destroy",
         "word_tag": [
             [
@@ -15966,7 +16385,8 @@
     },
     {
         "id": 420,
-        "duration": 2931,
+        "startTime": 1122.958,
+        "duration": 2068,
         "text": "and generally make our lives more difficult in every way?",
         "word_tag": [
             [
@@ -16017,7 +16437,8 @@
     },
     {
         "id": 421,
-        "duration": 2010,
+        "startTime": 1125.291,
+        "duration": 1748,
         "text": "\u2010 True, we've had our differences.",
         "word_tag": [
             [
@@ -16060,7 +16481,8 @@
     },
     {
         "id": 422,
-        "duration": 998,
+        "startTime": 1127.419,
+        "duration": 620,
         "text": "But that's history.",
         "word_tag": [
             [
@@ -16087,7 +16509,8 @@
     },
     {
         "id": 423,
-        "duration": 2968,
+        "startTime": 1128.42,
+        "duration": 2590,
         "text": "They're strong, fast, they've got big hands,",
         "word_tag": [
             [
@@ -16142,7 +16565,8 @@
     },
     {
         "id": 424,
-        "duration": 1029,
+        "startTime": 1131.131,
+        "duration": 911,
         "text": "and unlike you, they listen.",
         "word_tag": [
             [
@@ -16177,7 +16601,8 @@
     },
     {
         "id": 425,
-        "duration": 3019,
+        "startTime": 1134.175,
+        "duration": 2861,
         "text": "So I asked them to give us a fist and they said yes.",
         "word_tag": [
             [
@@ -16240,7 +16665,8 @@
     },
     {
         "id": 426,
-        "duration": 1981,
+        "startTime": 1137.386,
+        "duration": 1633,
         "text": "\u2010 But this was our job.",
         "word_tag": [
             [
@@ -16275,7 +16701,8 @@
     },
     {
         "id": 427,
-        "duration": -51944,
+        "startTime": 1139.222,
+        "duration": -52144,
         "text": "\u2010 And now it's not. Isn't that great?",
         "word_tag": [
             [
@@ -16330,7 +16757,8 @@
     },
     {
         "id": 428,
-        "duration": 2969,
+        "startTime": 1141.807,
+        "duration": 2242,
         "text": "\u2010 No! This was our purpose.",
         "word_tag": [
             [
@@ -16369,7 +16797,8 @@
     },
     {
         "id": 429,
-        "duration": 2002,
+        "startTime": 1144.519,
+        "duration": 1534,
         "text": "It was gonna save us from being useless.",
         "word_tag": [
             [
@@ -16416,7 +16845,8 @@
     },
     {
         "id": 430,
-        "duration": 1022,
+        "startTime": 1146.563,
+        "duration": 515,
         "text": "Like a slugopotamus.",
         "word_tag": [
             [
@@ -16439,7 +16869,8 @@
     },
     {
         "id": 431,
-        "duration": 1973,
+        "startTime": 1147.814,
+        "duration": 1240,
         "text": "\u2010 And I'm no slugopotamus.",
         "word_tag": [
             [
@@ -16474,7 +16905,8 @@
     },
     {
         "id": 432,
-        "duration": 2981,
+        "startTime": 1149.566,
+        "duration": 2471,
         "text": "\u2010 No, you're like a beautiful meteor shower.",
         "word_tag": [
             [
@@ -16525,7 +16957,8 @@
     },
     {
         "id": 433,
-        "duration": 1014,
+        "startTime": 1152.402,
+        "duration": 652,
         "text": "But on the ground.",
         "word_tag": [
             [
@@ -16552,7 +16985,8 @@
     },
     {
         "id": 434,
-        "duration": 1040,
+        "startTime": 1153.569,
+        "duration": 527,
         "text": "\u2010 Comin' in a little hot, Guy. \u2010 Okay.",
         "word_tag": [
             [
@@ -16611,7 +17045,8 @@
     },
     {
         "id": 435,
-        "duration": 3918,
+        "startTime": 1154.99,
+        "duration": 3027,
         "text": "\u2010 And you have a lot to learn about meteor showers.",
         "word_tag": [
             [
@@ -16666,7 +17101,8 @@
     },
     {
         "id": 436,
-        "duration": 4052,
+        "startTime": 1158.2,
+        "duration": 3872,
         "text": "Now, gawk as the punch monkeys do what you couldn't,",
         "word_tag": [
             [
@@ -16725,7 +17161,8 @@
     },
     {
         "id": 437,
-        "duration": 1952,
+        "startTime": 1162.746,
+        "duration": 1280,
         "text": "finish the harvest.",
         "word_tag": [
             [
@@ -16748,7 +17185,8 @@
     },
     {
         "id": 438,
-        "duration": 2015,
+        "startTime": 1164.288,
+        "duration": 1755,
         "text": "And for a mere one banana per monkey.",
         "word_tag": [
             [
@@ -16791,7 +17229,8 @@
     },
     {
         "id": 439,
-        "duration": 2032,
+        "startTime": 1166.46,
+        "duration": 1618,
         "text": "\u2010 Someone should tell them that.",
         "word_tag": [
             [
@@ -16826,7 +17265,8 @@
     },
     {
         "id": 440,
-        "duration": 2025,
+        "startTime": 1170.295,
+        "duration": 1759,
         "text": "\u2010 What are you doing? Stop!",
         "word_tag": [
             [
@@ -16865,7 +17305,8 @@
     },
     {
         "id": 441,
-        "duration": 1993,
+        "startTime": 1174.383,
+        "duration": 1648,
         "text": "Huh. I don't understand that punch.",
         "word_tag": [
             [
@@ -16908,7 +17349,8 @@
     },
     {
         "id": 442,
-        "duration": 2035,
+        "startTime": 1176.343,
+        "duration": 1726,
         "text": "Uh, Guy, you speak better punch monkey than I do.",
         "word_tag": [
             [
@@ -16967,7 +17409,8 @@
     },
     {
         "id": 443,
-        "duration": 968,
+        "startTime": 1178.72,
+        "duration": 320,
         "text": "What did he say?",
         "word_tag": [
             [
@@ -16994,7 +17437,8 @@
     },
     {
         "id": 444,
-        "duration": 2053,
+        "startTime": 1179.429,
+        "duration": 1666,
         "text": "\u2010 He said you told them that they could take all the bananas they want.",
         "word_tag": [
             [
@@ -17065,7 +17509,8 @@
     },
     {
         "id": 445,
-        "duration": 998,
+        "startTime": 1181.973,
+        "duration": 122,
         "text": "\u2010 What? No!",
         "word_tag": [
             [
@@ -17092,7 +17537,8 @@
     },
     {
         "id": 446,
-        "duration": 1948,
+        "startTime": 1182.974,
+        "duration": 1071,
         "text": "That's a mis\u2010puncher\u2010standing.",
         "word_tag": [
             [
@@ -17119,7 +17565,8 @@
     },
     {
         "id": 447,
-        "duration": 2010,
+        "startTime": 1184.476,
+        "duration": 1581,
         "text": "I said one. Like this.",
         "word_tag": [
             [
@@ -17154,7 +17601,8 @@
     },
     {
         "id": 448,
-        "duration": 1023,
+        "startTime": 1186.603,
+        "duration": 480,
         "text": "\u2010 There's your mistake.",
         "word_tag": [
             [
@@ -17185,7 +17633,8 @@
     },
     {
         "id": 449,
-        "duration": 1948,
+        "startTime": 1187.859,
+        "duration": 1174,
         "text": "That's not one. That's all.",
         "word_tag": [
             [
@@ -17228,7 +17677,8 @@
     },
     {
         "id": 450,
-        "duration": 998,
+        "startTime": 1189.355,
+        "duration": 678,
         "text": "This means one.",
         "word_tag": [
             [
@@ -17251,7 +17701,8 @@
     },
     {
         "id": 451,
-        "duration": 1998,
+        "startTime": 1190.356,
+        "duration": 1677,
         "text": "\u2010 Ooh! Really? This means one?",
         "word_tag": [
             [
@@ -17294,7 +17745,8 @@
     },
     {
         "id": 452,
-        "duration": 1057,
+        "startTime": 1192.358,
+        "duration": 734,
         "text": "\u2010 No. That means thirsty.",
         "word_tag": [
             [
@@ -17329,7 +17781,8 @@
     },
     {
         "id": 453,
-        "duration": 998,
+        "startTime": 1193.943,
+        "duration": 149,
         "text": "This means one.",
         "word_tag": [
             [
@@ -17352,7 +17805,8 @@
     },
     {
         "id": 454,
-        "duration": 956,
+        "startTime": 1194.944,
+        "duration": 106,
         "text": "\u2010 This?",
         "word_tag": [
             [
@@ -17371,7 +17825,8 @@
     },
     {
         "id": 455,
-        "duration": 1011,
+        "startTime": 1195.528,
+        "duration": 535,
         "text": "\u2010 No. This!",
         "word_tag": [
             [
@@ -17398,7 +17853,8 @@
     },
     {
         "id": 456,
-        "duration": 1979,
+        "startTime": 1196.654,
+        "duration": 1390,
         "text": "\u2010 Oh. Thanks for clearing that up.",
         "word_tag": [
             [
@@ -17441,7 +17897,8 @@
     },
     {
         "id": 457,
-        "duration": 1965,
+        "startTime": 1200.909,
+        "duration": 1146,
         "text": "What are they saying now?",
         "word_tag": [
             [
@@ -17472,7 +17929,8 @@
     },
     {
         "id": 458,
-        "duration": 2040,
+        "startTime": 1202.579,
+        "duration": 1518,
         "text": "\u2010 They feel misled. So they're gonna take all our food.",
         "word_tag": [
             [
@@ -17539,7 +17997,8 @@
     },
     {
         "id": 459,
-        "duration": 2919,
+        "startTime": 1204.997,
+        "duration": 2021,
         "text": "Right after they trash the farm to teach you a little lesson",
         "word_tag": [
             [
@@ -17594,7 +18053,8 @@
     },
     {
         "id": 460,
-        "duration": 1044,
+        "startTime": 1207.207,
+        "duration": 857,
         "text": "in honesty and integrity.",
         "word_tag": [
             [
@@ -17621,7 +18081,8 @@
     },
     {
         "id": 461,
-        "duration": 1015,
+        "startTime": 1208.666,
+        "duration": 415,
         "text": "\u2010 They said all that with punches?",
         "word_tag": [
             [
@@ -17660,7 +18121,8 @@
     },
     {
         "id": 462,
-        "duration": 1940,
+        "startTime": 1209.836,
+        "duration": 1187,
         "text": "\u2010 It's a rich, mysterious language.",
         "word_tag": [
             [
@@ -17703,7 +18165,8 @@
     },
     {
         "id": 463,
-        "duration": 4002,
+        "startTime": 1212.837,
+        "duration": 3248,
         "text": "\u2010 So, Croods, you still want to help with the bounceberry harvest, yes?",
         "word_tag": [
             [
@@ -17778,7 +18241,8 @@
     },
     {
         "id": 464,
-        "duration": 1948,
+        "startTime": 1216.884,
+        "duration": 1152,
         "text": "\u2010 By stopping the punch monkeys?",
         "word_tag": [
             [
@@ -17813,7 +18277,8 @@
     },
     {
         "id": 465,
-        "duration": 1005,
+        "startTime": 1218.393,
+        "duration": 651,
         "text": "\u2010 And fixing your mistake?",
         "word_tag": [
             [
@@ -17844,7 +18309,8 @@
     },
     {
         "id": 466,
-        "duration": 1052,
+        "startTime": 1219.469,
+        "duration": 629,
         "text": "\u2010 Oh, I wouldn't put it like that.",
         "word_tag": [
             [
@@ -17895,7 +18361,8 @@
     },
     {
         "id": 467,
-        "duration": 1043,
+        "startTime": 1221.012,
+        "duration": 1032,
         "text": "\u2010 I would. That's exactly it.",
         "word_tag": [
             [
@@ -17938,7 +18405,8 @@
     },
     {
         "id": 468,
-        "duration": 989,
+        "startTime": 1222.471,
+        "duration": 565,
         "text": "\u2010 We're on it.",
         "word_tag": [
             [
@@ -17969,7 +18437,8 @@
     },
     {
         "id": 469,
-        "duration": 2031,
+        "startTime": 1223.393,
+        "duration": 1677,
         "text": "\u2010 And I'm all over it because this is how I roll now!",
         "word_tag": [
             [
@@ -18036,7 +18505,8 @@
     },
     {
         "id": 470,
-        "duration": 2984,
+        "startTime": 1225.73,
+        "duration": 2327,
         "text": "All Dawn, no rules, so deal with it!",
         "word_tag": [
             [
@@ -18087,7 +18557,8 @@
     },
     {
         "id": 471,
-        "duration": 969,
+        "startTime": 1228.604,
+        "duration": 425,
         "text": "\u2010 Same team, Dawn.",
         "word_tag": [
             [
@@ -18118,7 +18589,8 @@
     },
     {
         "id": 472,
-        "duration": 2969,
+        "startTime": 1229.315,
+        "duration": 2685,
         "text": "\u2010 Yeah. The Kill Team!",
         "word_tag": [
             [
@@ -18153,7 +18625,8 @@
     },
     {
         "id": 473,
-        "duration": 1018,
+        "startTime": 1232.023,
+        "duration": 997,
         "text": "\u2010 Uh, no.",
         "word_tag": [
             [
@@ -18180,7 +18653,8 @@
     },
     {
         "id": 474,
-        "duration": 1052,
+        "startTime": 1233.232,
+        "duration": 843,
         "text": "No killing necessary.",
         "word_tag": [
             [
@@ -18203,7 +18677,8 @@
     },
     {
         "id": 475,
-        "duration": 990,
+        "startTime": 1234.776,
+        "duration": 291,
         "text": "Here's the plan\u2010\u2010",
         "word_tag": [
             [
@@ -18226,7 +18701,8 @@
     },
     {
         "id": 476,
-        "duration": 3010,
+        "startTime": 1235.693,
+        "duration": 2386,
         "text": "\u2010 No offense, but your plan is why we need a new plan.",
         "word_tag": [
             [
@@ -18293,7 +18769,8 @@
     },
     {
         "id": 477,
-        "duration": 1968,
+        "startTime": 1238.824,
+        "duration": 1226,
         "text": "\u2010 Right. So here's the plan.",
         "word_tag": [
             [
@@ -18336,7 +18813,8 @@
     },
     {
         "id": 478,
-        "duration": 2002,
+        "startTime": 1240.531,
+        "duration": 1524,
         "text": "Hey, punch monkeys!",
         "word_tag": [
             [
@@ -18363,7 +18841,8 @@
     },
     {
         "id": 479,
-        "duration": 1965,
+        "startTime": 1242.576,
+        "duration": 1446,
         "text": "You forgot the bounceberries.",
         "word_tag": [
             [
@@ -18390,7 +18869,8 @@
     },
     {
         "id": 480,
-        "duration": 1039,
+        "startTime": 1244.243,
+        "duration": 820,
         "text": "\u2010 So we brought you a bunch.",
         "word_tag": [
             [
@@ -18429,7 +18909,8 @@
     },
     {
         "id": 481,
-        "duration": 1000,
+        "startTime": 1245.662,
+        "duration": 404,
         "text": "\u2010 To go.",
         "word_tag": [
             [
@@ -18452,7 +18933,8 @@
     },
     {
         "id": 482,
-        "duration": 3027,
+        "startTime": 1248.164,
+        "duration": 2879,
         "text": "Look at us, working together, bouncing together.",
         "word_tag": [
             [
@@ -18499,7 +18981,8 @@
     },
     {
         "id": 483,
-        "duration": 1018,
+        "startTime": 1251.46,
+        "duration": 604,
         "text": "This is a real moment.",
         "word_tag": [
             [
@@ -18530,7 +19013,8 @@
     },
     {
         "id": 484,
-        "duration": 1026,
+        "startTime": 1252.671,
+        "duration": 422,
         "text": "Whoo\u2010\u2010",
         "word_tag": [
             [
@@ -18541,7 +19025,8 @@
     },
     {
         "id": 485,
-        "duration": 1943,
+        "startTime": 1253.961,
+        "duration": 1078,
         "text": "Woo\u2010hoo!",
         "word_tag": [
             [
@@ -18556,7 +19041,8 @@
     },
     {
         "id": 486,
-        "duration": 1018,
+        "startTime": 1255.422,
+        "duration": 638,
         "text": "Whoa!",
         "word_tag": [
             [
@@ -18571,7 +19057,8 @@
     },
     {
         "id": 487,
-        "duration": 2031,
+        "startTime": 1256.632,
+        "duration": 1462,
         "text": "Boy, I am really up here.",
         "word_tag": [
             [
@@ -18610,7 +19097,8 @@
     },
     {
         "id": 488,
-        "duration": -52085,
+        "startTime": 1258.967,
+        "duration": -52956,
         "text": "Oh, pretty clouds!",
         "word_tag": [
             [
@@ -18637,7 +19125,8 @@
     },
     {
         "id": 489,
-        "duration": 1006,
+        "startTime": 1260.134,
+        "duration": 885,
         "text": "That one looks like a pillow.",
         "word_tag": [
             [
@@ -18672,7 +19161,8 @@
     },
     {
         "id": 490,
-        "duration": 2018,
+        "startTime": 1261.22,
+        "duration": 1820,
         "text": "And there's an egg, a coconut, Thunk,",
         "word_tag": [
             [
@@ -18723,7 +19213,8 @@
     },
     {
         "id": 491,
-        "duration": 1047,
+        "startTime": 1263.43,
+        "duration": 660,
         "text": "a\u2010a\u2010and going down.",
         "word_tag": [
             [
@@ -18746,7 +19237,8 @@
     },
     {
         "id": 492,
-        "duration": 1922,
+        "startTime": 1264.932,
+        "duration": 1083,
         "text": "Whoo!",
         "word_tag": [
             [
@@ -18761,7 +19253,8 @@
     },
     {
         "id": 493,
-        "duration": 1027,
+        "startTime": 1266.182,
+        "duration": 863,
         "text": "Going back up.",
         "word_tag": [
             [
@@ -18784,7 +19277,8 @@
     },
     {
         "id": 494,
-        "duration": 2002,
+        "startTime": 1267.476,
+        "duration": 1573,
         "text": "Oh, yeah!",
         "word_tag": [
             [
@@ -18807,7 +19301,8 @@
     },
     {
         "id": 495,
-        "duration": 1029,
+        "startTime": 1269.519,
+        "duration": 561,
         "text": "\u2010 Guy.",
         "word_tag": [
             [
@@ -18826,7 +19321,8 @@
     },
     {
         "id": 496,
-        "duration": 1973,
+        "startTime": 1271.313,
+        "duration": 1691,
         "text": "\u2010 Hey, no bounce\u2010frogging.",
         "word_tag": [
             [
@@ -18857,7 +19353,8 @@
     },
     {
         "id": 497,
-        "duration": 1079,
+        "startTime": 1273.065,
+        "duration": 1020,
         "text": "This is serious monkey business.",
         "word_tag": [
             [
@@ -18888,7 +19385,8 @@
     },
     {
         "id": 498,
-        "duration": 3977,
+        "startTime": 1278.903,
+        "duration": 3164,
         "text": "\u2010 It's time to chew and shoo these monkeys outta here.",
         "word_tag": [
             [
@@ -18947,7 +19445,8 @@
     },
     {
         "id": 499,
-        "duration": 1971,
+        "startTime": 1282.699,
+        "duration": 1341,
         "text": "Everyone, chew!",
         "word_tag": [
             [
@@ -18970,7 +19469,8 @@
     },
     {
         "id": 500,
-        "duration": 1955,
+        "startTime": 1286.619,
+        "duration": 1397,
         "text": "And shoo!",
         "word_tag": [
             [
@@ -18989,7 +19489,8 @@
     },
     {
         "id": 501,
-        "duration": 1979,
+        "startTime": 1294.586,
+        "duration": 1451,
         "text": "Abandon berries!",
         "word_tag": [
             [
@@ -19008,7 +19509,8 @@
     },
     {
         "id": 502,
-        "duration": 1000,
+        "startTime": 1301.801,
+        "duration": 279,
         "text": "Gotcha!",
         "word_tag": [
             [
@@ -19023,7 +19525,8 @@
     },
     {
         "id": 503,
-        "duration": 1996,
+        "startTime": 1304.93,
+        "duration": 1159,
         "text": "Phil and Hope, you're up!",
         "word_tag": [
             [
@@ -19062,7 +19565,8 @@
     },
     {
         "id": 504,
-        "duration": 3023,
+        "startTime": 1314.146,
+        "duration": 2891,
         "text": "\u2010 And that's how you bounce punch monkeys out the door.",
         "word_tag": [
             [
@@ -19121,7 +19625,8 @@
     },
     {
         "id": 505,
-        "duration": -50019,
+        "startTime": 1317.401,
+        "duration": -50380,
         "text": "\u2010 Along with all our bounceberries!",
         "word_tag": [
             [
@@ -19156,7 +19661,8 @@
     },
     {
         "id": 506,
-        "duration": 2071,
+        "startTime": 1321.238,
+        "duration": 1856,
         "text": "Except for that one. Which you are eating.",
         "word_tag": [
             [
@@ -19203,7 +19709,8 @@
     },
     {
         "id": 507,
-        "duration": 976,
+        "startTime": 1326.41,
+        "duration": 607,
         "text": "Ugh!",
         "word_tag": [
             [
@@ -19218,7 +19725,8 @@
     },
     {
         "id": 508,
-        "duration": 2068,
+        "startTime": 1327.201,
+        "duration": 1887,
         "text": "\u2010 The point is, we did it together.",
         "word_tag": [
             [
@@ -19265,7 +19773,8 @@
     },
     {
         "id": 509,
-        "duration": 2999,
+        "startTime": 1329.913,
+        "duration": 2177,
         "text": "We built a bridge between ourselves and we crossed it.",
         "word_tag": [
             [
@@ -19316,7 +19825,8 @@
     },
     {
         "id": 510,
-        "duration": 3943,
+        "startTime": 1332.923,
+        "duration": 3112,
         "text": "\u2010 No. The point is, we found our purpose here.",
         "word_tag": [
             [
@@ -19375,7 +19885,8 @@
     },
     {
         "id": 511,
-        "duration": 1990,
+        "startTime": 1336.377,
+        "duration": 1650,
         "text": "Fixing Phil's mistakes.",
         "word_tag": [
             [
@@ -19402,7 +19913,8 @@
     },
     {
         "id": 512,
-        "duration": 1027,
+        "startTime": 1338.297,
+        "duration": 759,
         "text": "\u2010 Starting with the system.",
         "word_tag": [
             [
@@ -19433,7 +19945,8 @@
     },
     {
         "id": 513,
-        "duration": 2040,
+        "startTime": 1339.589,
+        "duration": 1509,
         "text": "Yeah, let's crush the system!",
         "word_tag": [
             [
@@ -19472,7 +19985,8 @@
     },
     {
         "id": 514,
-        "duration": 2036,
+        "startTime": 1342.009,
+        "duration": 2027,
         "text": "\u2010 Ooh. And afterwards maybe we could play Catch.",
         "word_tag": [
             [
@@ -19523,7 +20037,8 @@
     },
     {
         "id": 515,
-        "duration": 2030,
+        "startTime": 1344.39,
+        "duration": 1679,
         "text": "\u2010 No! They'll ruin the system.",
         "word_tag": [
             [
@@ -19566,7 +20081,8 @@
     },
     {
         "id": 516,
-        "duration": 1014,
+        "startTime": 1346.721,
+        "duration": 365,
         "text": "\u2010 Who cares?",
         "word_tag": [
             [
@@ -19589,7 +20105,8 @@
     },
     {
         "id": 517,
-        "duration": 2997,
+        "startTime": 1347.89,
+        "duration": 2196,
         "text": "If they're busy, I get my kitchen back. So I win.",
         "word_tag": [
             [
@@ -19656,7 +20173,8 @@
     },
     {
         "id": 518,
-        "duration": 1993,
+        "startTime": 1350.893,
+        "duration": 1189,
         "text": "Which means you win.",
         "word_tag": [
             [
@@ -19683,7 +20201,8 @@
     },
     {
         "id": 519,
-        "duration": 2917,
+        "startTime": 1352.853,
+        "duration": 2149,
         "text": "\u2010 You're right. High five.",
         "word_tag": [
             [
@@ -19722,7 +20241,8 @@
     },
     {
         "id": 520,
-        "duration": 2004,
+        "startTime": 1356.815,
+        "duration": 1270,
         "text": "\u2010 And we're stuck.",
         "word_tag": [
             [
