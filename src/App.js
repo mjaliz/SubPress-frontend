@@ -7,7 +7,7 @@ import WordCard from "./components/WordCard";
 function App() {
   return (
     <div>
-      <WordCard />
+      <VideoPlayer src="/video/demo2.mp4" />
     </div>
   );
 }

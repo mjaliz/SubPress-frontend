@@ -4,6 +4,7 @@ import "./VideoPlayer.css";
 import "../main.css";
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
+import WordCard from "./WordCard";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -15,6 +16,7 @@ function VideoPlayer({ src }) {
   const [subtitleId, setSubtitleId] = useState(null);
   const [selectedSentence, setSelectedSentence] = useState([]);
   const [videoWorks, setVideoWorks] = useState(null);
+  const [wordCardId, setWordCardId] = useState(undefined);
 
   const videoContainerRef = useRef(null);
   const videoRef = useRef(null);
@@ -64,13 +66,14 @@ function VideoPlayer({ src }) {
     videoElement.pause();
   };
 
-  const handleSubtitleClick = (word, id) => {
+  const handleSubtitleClick = (word, wordId, subtitleId) => {
     console.log("This word clicked", word);
     const selectedSubtitle = {
       word,
-      id,
+      subtitleId,
     };
     setSelectedSentence([...selectedSentence, selectedSubtitle]);
+    setWordCardId(wordId);
     togglePaly();
   };
 
@@ -106,13 +109,22 @@ function VideoPlayer({ src }) {
             <>
               <div className="flex flex-row flex-wrap justify-center py-1 px-2">
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
-                  <p
-                    className="text-[#fff] font-bold px-0.5 cursor-pointer"
-                    key={index}
-                    onClick={() => handleSubtitleClick(word[0], subtitleId)}
-                  >
-                    {word[0]}
-                  </p>
+                  <>
+                    <div
+                      className="text-[#fff] font-bold px-0.5 cursor-pointer relative"
+                      key={index}
+                      onClick={() =>
+                        handleSubtitleClick(word[0], index, subtitleId)
+                      }
+                    >
+                      {word[0]}
+                      <WordCard
+                        visibility={index === wordCardId}
+                        word={word[0]}
+                        classes=""
+                      />
+                    </div>
+                  </>
                 ))}
               </div>
               <p className="text-text-gold font-bold text-center py-1">
