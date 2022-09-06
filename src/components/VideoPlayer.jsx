@@ -4,7 +4,6 @@ import "./VideoPlayer.css";
 import "../main.css";
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
-// import PlayerControls from "./PlayerControls";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -57,7 +56,6 @@ function VideoPlayer({ src }) {
       if (cues.length === 1) {
         const id = parseInt(cues["0"].id);
         setSubtitleId(id);
-        console.log(videoElement.currentTime);
         if (id > 2) scrollSmoothHandler(id - 2);
       }
     });
