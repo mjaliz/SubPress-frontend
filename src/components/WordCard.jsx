@@ -1,23 +1,23 @@
 import React from "react";
-import "../main.css";
 
 export default function WordCard({
   word = "Word",
   translate = "Translate",
   tag = "Tag",
   visibility = false,
-  classes,
 }) {
   return (
-    <div className="absolute bottom-10 left-[-40%]">
+    <div className="absolute bottom-8 left-[calc(50%_-_72px)]">
       <div
-        className={`bg-white rounded-xl relative ${visibility ? "" : "hidden"}`}
+        className={`bg-white w-36 rounded-xl relative ${
+          visibility ? "" : "hidden"
+        }`}
       >
-        <div className="bg-bg-gray1 text-text-primary font-bold h-1/3 p-3 rounded-t-xl flex flex-col justify-center align-middle">
+        <div className="bg-bg-gray1 text-text-primary font-bold p-2 rounded-t-xl flex flex-col justify-center align-middle">
           <p>{word}</p>
         </div>
-        <div className="flex flex-row justify-between p-3">
-          <p className="font-bold">{translate}</p>
+        <div className="flex flex-row justify-between p-2">
+          <p className="font-bold text-black">{translate}</p>
           <div className="flex flex-col justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,10 +35,10 @@ export default function WordCard({
             </svg>
           </div>
         </div>
-        <div className="flex flex-row justify-between p-3">
+        <div className="flex flex-row justify-between p-2">
           <div className="text-text_gray2">{tag}</div>
           <div className="flex flex-row ml-2">
-            view details
+            <p className="text-black text-xs self-center">view details</p>
             <div className="self-center ml-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export default function WordCard({
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-3 h-3"
+                className="w-3 h-3 stroke-black"
               >
                 <path
                   strokeLinecap="round"

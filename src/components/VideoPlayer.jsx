@@ -5,6 +5,7 @@ import "../main.css";
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
+import WordListIcon from "./WordListIcon";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -17,6 +18,7 @@ function VideoPlayer({ src }) {
   const [selectedSentence, setSelectedSentence] = useState([]);
   const [videoWorks, setVideoWorks] = useState(null);
   const [wordCardId, setWordCardId] = useState(undefined);
+  const [selectedWordList, setSelectedWordList] = useState([]);
 
   const videoContainerRef = useRef(null);
   const videoRef = useRef(null);
@@ -66,12 +68,17 @@ function VideoPlayer({ src }) {
     videoElement.pause();
   };
 
+  const handleVideoPaly = () => {
+    setWordCardId(undefined);
+  };
+
   const handleSubtitleClick = (word, wordId, subtitleId) => {
     console.log("This word clicked", word);
     const selectedSubtitle = {
       word,
       subtitleId,
     };
+    setSelectedWordList([...selectedWordList, word]);
     setSelectedSentence([...selectedSentence, selectedSubtitle]);
     setWordCardId(wordId);
     togglePaly();
@@ -79,11 +86,15 @@ function VideoPlayer({ src }) {
 
   const handleListSubtitleClicked = (index) => {
     videoElement.currentTime = subtitles[index].startTime;
+    setWordCardId(undefined);
   };
 
   return (
     <>
       <div ref={videoContainerRef} className="sticky top-0">
+        {selectedWordList.length !== 0 && (
+          <WordListIcon numberOfItems={selectedWordList.length} />
+        )}
         <video
           ref={videoRef}
           id="video"
@@ -93,6 +104,7 @@ function VideoPlayer({ src }) {
           width="100%"
           height="100%"
           className="md:h-[50vh]"
+          onPlay={handleVideoPaly}
         >
           <source src={src} type="video/mp4" />
 
@@ -107,27 +119,29 @@ function VideoPlayer({ src }) {
         <div className="bg-bg-dark1 min-h-[8vh] py-1">
           {subtitleId && (
             <>
-              <div className="flex flex-row flex-wrap justify-center py-1 px-2">
+              <div className="flex flex-row flex-wrap justify-center py-1 px-16">
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
                   <>
                     <div
-                      className="text-[#fff] font-bold px-0.5 cursor-pointer relative"
+                      className="text-[#fff] font-bold px-0.5 py-0.5 cursor-pointer relative"
                       key={index}
-                      onClick={() =>
-                        handleSubtitleClick(word[0], index, subtitleId)
-                      }
                     >
-                      {word[0]}
+                      <p
+                        onClick={() =>
+                          handleSubtitleClick(word[0], index, subtitleId)
+                        }
+                      >
+                        {word[0]}
+                      </p>
                       <WordCard
                         visibility={index === wordCardId}
                         word={word[0]}
-                        classes=""
                       />
                     </div>
                   </>
                 ))}
               </div>
-              <p className="text-text-gold font-bold text-center py-1">
+              <p className="text-text-gold font-bold text-center p-2">
                 {subtitlesFa[subtitleId - 1].text}
               </p>
             </>
@@ -140,8 +154,8 @@ function VideoPlayer({ src }) {
             ref={scrollRefs.current[index]}
             key={index}
             className={`${
-              subtitleId - 1 === index ? "text-white" : "text-text-gray"
-            } text-center py-3 cursor-pointer`}
+              subtitleId - 1 === index ? "text-white" : "text-text-gray1"
+            } text-center p-3 cursor-pointer`}
             onClick={() => handleListSubtitleClicked(index)}
           >
             {subtitle.text}

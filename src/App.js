@@ -3,6 +3,7 @@ import VideoPlayer from "./components/VideoPlayer";
 import "./App.css";
 import "./main.css";
 import WordCard from "./components/WordCard";
+import WordListIcon from "./components/WordListIcon";
 
 function App() {
   return (
