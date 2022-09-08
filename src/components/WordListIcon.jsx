@@ -1,9 +1,12 @@
 import React from "react";
 import "../main.css";
 
-export default function WordListIcon({ numberOfItems }) {
+export default function WordListIcon({ numberOfItems, onClick }) {
   return (
-    <div className="flex justify-between py-0.5 px-1.5 z-50 w-11 bg-text-primary text-white rounded-2xl absolute right-5 top-3">
+    <div
+      onClick={onClick}
+      className="flex justify-between py-0.5 px-1.5 z-50 min-w-11 bg-text-primary text-white rounded-2xl absolute right-5 top-3"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

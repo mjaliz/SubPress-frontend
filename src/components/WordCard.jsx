@@ -9,7 +9,7 @@ export default function WordCard({
   return (
     <div className="absolute bottom-8 left-[calc(50%_-_72px)]">
       <div
-        className={`bg-white w-36 rounded-xl relative ${
+        className={`bg-white min-w-36 rounded-xl relative ${
           visibility ? "" : "hidden"
         }`}
       >
@@ -36,9 +36,9 @@ export default function WordCard({
           </div>
         </div>
         <div className="flex flex-row justify-between p-2">
-          <div className="text-text_gray2">{tag}</div>
+          <p className="text-text-gray2 text-sm whitespace-nowrap">{tag}</p>
           <div className="flex flex-row ml-2">
-            <p className="text-black text-xs self-center">view details</p>
+            <p className="text-black text-xs whitespace-nowrap">view details</p>
             <div className="self-center ml-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export default function WordCard({
           style={{
             width: 0,
             height: 0,
-            "border-left": "10px solid transparent",
-            "border-right": "10px solid transparent",
-            "border-top": "10px solid #fff",
+            borderLeft: "10px solid transparent",
+            borderRight: "10px solid transparent",
+            borderTop: "10px solid #fff",
             position: "absolute",
             left: "calc(50% - 10px)",
           }}

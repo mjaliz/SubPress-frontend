@@ -2,10 +2,12 @@ import React, { useEffect, useState, useRef, createRef } from "react";
 
 import "./VideoPlayer.css";
 import "../main.css";
+
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
 import WordListIcon from "./WordListIcon";
+import WordDetailsCard from "./WordDetailsCard";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -19,6 +21,7 @@ function VideoPlayer({ src }) {
   const [videoWorks, setVideoWorks] = useState(null);
   const [wordCardId, setWordCardId] = useState(undefined);
   const [selectedWordList, setSelectedWordList] = useState([]);
+  const [wordDetailOpen, setWordDetailsOpen] = useState(false);
 
   const videoContainerRef = useRef(null);
   const videoRef = useRef(null);
@@ -64,11 +67,11 @@ function VideoPlayer({ src }) {
       }
     });
 
-  const togglePaly = () => {
+  const togglePlay = () => {
     videoElement.pause();
   };
 
-  const handleVideoPaly = () => {
+  const handleVideoPlay = () => {
     setWordCardId(undefined);
   };
 
@@ -78,10 +81,10 @@ function VideoPlayer({ src }) {
       word,
       subtitleId,
     };
-    setSelectedWordList([...selectedWordList, word]);
+    setSelectedWordList([word, ...selectedWordList]);
     setSelectedSentence([...selectedSentence, selectedSubtitle]);
     setWordCardId(wordId);
-    togglePaly();
+    togglePlay();
   };
 
   const handleListSubtitleClicked = (index) => {
@@ -89,11 +92,23 @@ function VideoPlayer({ src }) {
     setWordCardId(undefined);
   };
 
+  const handleWordListIconClicked = () => {
+    setWordDetailsOpen(!wordDetailOpen);
+    togglePlay();
+  };
+
+  const handleWordDetailOpenChange = () => {
+    setWordDetailsOpen(!wordDetailOpen);
+  };
+
   return (
     <>
       <div ref={videoContainerRef} className="sticky top-0">
         {selectedWordList.length !== 0 && (
-          <WordListIcon numberOfItems={selectedWordList.length} />
+          <WordListIcon
+            numberOfItems={selectedWordList.length}
+            onClick={handleWordListIconClicked}
+          />
         )}
         <video
           ref={videoRef}
@@ -104,7 +119,7 @@ function VideoPlayer({ src }) {
           width="100%"
           height="100%"
           className="md:h-[50vh]"
-          onPlay={handleVideoPaly}
+          onPlay={handleVideoPlay}
         >
           <source src={src} type="video/mp4" />
 
@@ -121,24 +136,23 @@ function VideoPlayer({ src }) {
             <>
               <div className="flex flex-row flex-wrap justify-center py-1 px-16">
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
-                  <>
-                    <div
-                      className="text-[#fff] font-bold px-0.5 py-0.5 cursor-pointer relative"
-                      key={index}
+                  <div
+                    className="text-[#fff] font-bold px-0.5 py-0.5 cursor-pointer relative"
+                    key={index}
+                  >
+                    <p
+                      onClick={() =>
+                        handleSubtitleClick(word, index, subtitleId)
+                      }
                     >
-                      <p
-                        onClick={() =>
-                          handleSubtitleClick(word[0], index, subtitleId)
-                        }
-                      >
-                        {word[0]}
-                      </p>
-                      <WordCard
-                        visibility={index === wordCardId}
-                        word={word[0]}
-                      />
-                    </div>
-                  </>
+                      {word[0]}
+                    </p>
+                    <WordCard
+                      visibility={index === wordCardId}
+                      word={word[0]}
+                      tag={word[1]}
+                    />
+                  </div>
                 ))}
               </div>
               <p className="text-text-gold font-bold text-center p-2">
@@ -148,7 +162,7 @@ function VideoPlayer({ src }) {
           )}
         </div>
       </div>
-      <div ref={subtitlesRef} className="bg-bg-dark2 ">
+      <div ref={subtitlesRef} className="bg-bg-dark2 -z-10">
         {subtitles.map((subtitle, index) => (
           <p
             ref={scrollRefs.current[index]}
@@ -162,6 +176,11 @@ function VideoPlayer({ src }) {
           </p>
         ))}
       </div>
+      <WordDetailsCard
+        open={wordDetailOpen}
+        onOpenChange={handleWordDetailOpenChange}
+        selectedWordList={selectedWordList}
+      />
     </>
   );
 }
