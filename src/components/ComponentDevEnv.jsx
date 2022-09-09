@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WordDetailsCard from "./WordDetailsCard";
+import WordListCard from "./WordListCard";
 import MyModal from "./MyModal";
 
 export default function ComponentDevEnv() {

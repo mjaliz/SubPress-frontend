@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function WordCard({
   word = "Word",
@@ -6,10 +6,15 @@ export default function WordCard({
   tag = "Tag",
   visibility = false,
 }) {
+  const handelSpeak = (word) => {
+    const msg = new SpeechSynthesisUtterance(word);
+    window.speechSynthesis.speak(msg);
+  };
+
   return (
-    <div className="absolute bottom-8 left-[calc(50%_-_72px)]">
+    <div className="absolute bottom-8 left-[calc(50%_-_3.5rem)]">
       <div
-        className={`bg-white min-w-36 rounded-xl relative ${
+        className={`bg-white min-w-[7rem] rounded-xl relative ${
           visibility ? "" : "hidden"
         }`}
       >
@@ -18,14 +23,17 @@ export default function WordCard({
         </div>
         <div className="flex flex-row justify-between p-2">
           <p className="font-bold text-black">{translate}</p>
-          <div className="flex flex-col justify-center">
+          <div
+            className="flex flex-col justify-center ml-2"
+            onClick={() => handelSpeak(word)}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4 h-4 stroke-black	"
+              className="w-4 h-4 stroke-black cursor-pointer"
             >
               <path
                 strokeLinecap="round"
@@ -37,7 +45,7 @@ export default function WordCard({
         </div>
         <div className="flex flex-row justify-between p-2">
           <p className="text-text-gray2 text-sm whitespace-nowrap">{tag}</p>
-          <div className="flex flex-row ml-2">
+          {/* <div className="flex flex-row ml-2">
             <p className="text-black text-xs whitespace-nowrap">view details</p>
             <div className="self-center ml-1">
               <svg
@@ -55,7 +63,7 @@ export default function WordCard({
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
         </div>
         <div
           style={{

@@ -7,7 +7,7 @@ import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
 import WordListIcon from "./WordListIcon";
-import WordDetailsCard from "./WordDetailsCard";
+import WordListCard from "./WordListCard";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -75,7 +75,16 @@ function VideoPlayer({ src }) {
     setWordCardId(undefined);
   };
 
+  const handelSpeak = (word) => {
+    const msg = new SpeechSynthesisUtterance(word);
+    window.speechSynthesis.speak(msg);
+  };
+
   const handleSubtitleClick = (word, wordId, subtitleId) => {
+    setTimeout(() => {
+      handelSpeak(word[0]);
+    }, 700);
+
     console.log("This word clicked", word);
     const selectedSubtitle = {
       word,
@@ -137,12 +146,17 @@ function VideoPlayer({ src }) {
               <div className="flex flex-row flex-wrap justify-center py-1 px-16">
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
                   <div
-                    className="text-[#fff] font-bold px-0.5 py-0.5 cursor-pointer relative"
+                    className="text-[#fff] font-bold px-0.5 py-0.5 relative"
                     key={index}
                   >
                     <p
                       onClick={() =>
                         handleSubtitleClick(word, index, subtitleId)
+                      }
+                      className={
+                        index === wordCardId
+                          ? "text-text-selected"
+                          : "cursor-pointer"
                       }
                     >
                       {word[0]}
@@ -176,7 +190,7 @@ function VideoPlayer({ src }) {
           </p>
         ))}
       </div>
-      <WordDetailsCard
+      <WordListCard
         open={wordDetailOpen}
         onOpenChange={handleWordDetailOpenChange}
         selectedWordList={selectedWordList}

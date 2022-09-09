@@ -1,35 +1,37 @@
 import React, { useEffect, useState } from "react";
 import WordOptionCard from "./WordOptionCard";
 
-export default function WordDetailsCard({
-  open,
-  onOpenChange,
-  selectedWordList,
-}) {
+export default function WordListCard({ open, onOpenChange, selectedWordList }) {
   const [wordOptionOpen, setWordOptionOpen] = useState(false);
-  const [selectedWord, setSelectedWord] = useState("");
+  const [selectedWordIndex, setSelectedWordIndex] = useState(undefined);
 
   const handleClickWordOption = (index) => {
-    setSelectedWord(index);
+    setSelectedWordIndex(index);
   };
   console.log(wordOptionOpen);
   return (
     <div className={open ? " sticky bottom-0" : "hidden"}>
       <div
-        onClick={onOpenChange}
+        onClick={() => {
+          onOpenChange();
+          setSelectedWordIndex(undefined);
+        }}
         className="bg-black opacity-60 z-30 w-screen h-screen  "
       ></div>
       <div className="bg-white flex flex-col w-full rounded-t-xl min-h-[50vh] m-auto p-3 pb-9 z-30 absolute bottom-0">
         <div className="flex flex-row justify-between ">
           <p>Chosen words:</p>
           <svg
-            onClick={onOpenChange}
+            onClick={() => {
+              onOpenChange();
+              setSelectedWordIndex(undefined);
+            }}
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-5 h-5"
+            className="w-5 h-5 cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -38,7 +40,7 @@ export default function WordDetailsCard({
             />
           </svg>
         </div>
-        <div className="flex flex-col my-6 max-h-[30vh] overflow-auto px-2">
+        <div className="flex flex-col my-6 h-[30vh] overflow-y-scroll px-2">
           {selectedWordList.map((word, index) => (
             <div
               key={index}
@@ -46,12 +48,15 @@ export default function WordDetailsCard({
             >
               <div
                 className="flex flex-col ml-3 w-full"
-                onClick={() => setWordOptionOpen(false)}
+                onClick={() => {
+                  setWordOptionOpen(false);
+                  setSelectedWordIndex(undefined);
+                }}
               >
                 <p className="text-text-gray3">{word[0]}</p>
                 <p className="text-text-gray4">{word[1]}</p>
               </div>
-              <div className="self-center ml-auto">
+              <div className="self-center ml-auto relative">
                 <svg
                   onClick={() => {
                     setWordOptionOpen(!wordOptionOpen);
@@ -62,7 +67,7 @@ export default function WordDetailsCard({
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 text-text-gray3"
+                  className="w-6 h-6 text-text-gray3 cursor-pointer"
                 >
                   <path
                     className="content-start"
@@ -72,7 +77,8 @@ export default function WordDetailsCard({
                   />
                 </svg>
                 <WordOptionCard
-                  open={index === selectedWord && wordOptionOpen}
+                  open={index === selectedWordIndex && wordOptionOpen}
+                  selectedWord={word[0]}
                 />
               </div>
             </div>

@@ -2,7 +2,7 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import WordDetailsCard from "./WordDetailsCard";
+import WordListCard from "./WordListCard";
 
 export default function Example({ open, onChange }) {
   return (

@@ -5,7 +5,7 @@ export default function WordListIcon({ numberOfItems, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="flex justify-between py-0.5 px-1.5 z-50 min-w-11 bg-text-primary text-white rounded-2xl absolute right-5 top-3"
+      className="flex justify-between py-0.5 px-1.5 z-50 min-w-11 bg-text-primary text-white rounded-2xl absolute right-5 top-3 cursor-pointer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

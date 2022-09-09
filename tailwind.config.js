@@ -24,6 +24,7 @@ module.exports = {
         "text-gray4": "#979598",
         "text-gold": "#fdeeab",
         "text-primary": "#ff6d00",
+        "text-selected": "#cc6213",
       },
     },
   },
