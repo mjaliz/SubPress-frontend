@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef, createRef } from "react";
 
-import "./VideoPlayer.css";
 import "../main.css";
 
 import subtitleFile from "../subWithWords.json";
@@ -85,7 +84,6 @@ function VideoPlayer({ src }) {
       handelSpeak(word[0]);
     }, 700);
 
-    console.log("This word clicked", word);
     const selectedSubtitle = {
       word,
       subtitleId,

@@ -8,7 +8,6 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
   const handleClickWordOption = (index) => {
     setSelectedWordIndex(index);
   };
-  console.log(wordOptionOpen);
   return (
     <div className={open ? " sticky bottom-0" : "hidden"}>
       <div
@@ -16,10 +15,10 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
           onOpenChange();
           setSelectedWordIndex(undefined);
         }}
-        className="bg-black opacity-60 z-30 w-screen h-screen  "
+        className="bg-black opacity-60 z-30 w-screen h-screen"
       ></div>
       <div className="bg-white flex flex-col w-full rounded-t-xl min-h-[50vh] m-auto p-3 pb-9 z-30 absolute bottom-0">
-        <div className="flex flex-row justify-between ">
+        <div className="flex flex-row justify-between">
           <p>Chosen words:</p>
           <svg
             onClick={() => {
@@ -31,7 +30,7 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-5 h-5 cursor-pointer"
+            className="w-5 h-5 sm:cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -67,7 +66,7 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 text-text-gray3 cursor-pointer"
+                  className="w-6 h-6 text-text-gray3 sm:cursor-pointer"
                 >
                   <path
                     className="content-start"

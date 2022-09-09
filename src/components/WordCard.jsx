@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 export default function WordCard({
   word = "Word",
@@ -33,7 +33,7 @@ export default function WordCard({
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4 h-4 stroke-black cursor-pointer"
+              className="w-4 h-4 stroke-black sm:cursor-pointer"
             >
               <path
                 strokeLinecap="round"

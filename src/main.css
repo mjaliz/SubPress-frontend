@@ -744,16 +744,16 @@ video {
   top: 6rem;
 }
 
-.left-\[calc\(50\%_-_3\.5rem\)\] {
-  left: calc(50% - 3.5rem);
-}
-
 .top-5 {
   top: 1.25rem;
 }
 
 .right-3 {
   right: 0.75rem;
+}
+
+.left-\[calc\(50\%_-_3\.5rem\)\] {
+  left: calc(50% - 3.5rem);
 }
 
 .z-50 {
@@ -996,18 +996,6 @@ video {
   min-height: 50vh;
 }
 
-.min-h-\[15vh\] {
-  min-height: 15vh;
-}
-
-.min-h-\[20vh\] {
-  min-height: 20vh;
-}
-
-.min-h-\[30vh\] {
-  min-height: 30vh;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1217,6 +1205,14 @@ video {
   cursor: pointer;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
 .resize {
   resize: both;
 }
@@ -1295,6 +1291,10 @@ video {
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
 
 .overflow-y-scroll {
@@ -1768,14 +1768,14 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
-.text-\[\#fff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-text-selected {
   --tw-text-opacity: 1;
   color: rgb(204 98 19 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-opacity-90 {
@@ -1984,6 +1984,10 @@ video {
 @media (min-width: 480px) {
   .sm\:-ml-10 {
     margin-left: -2.5rem;
+  }
+
+  .sm\:cursor-pointer {
+    cursor: pointer;
   }
 
   .sm\:px-6 {

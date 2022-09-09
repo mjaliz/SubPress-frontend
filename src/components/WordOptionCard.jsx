@@ -12,7 +12,7 @@ export default function WordOptionCard({ open, selectedWord }) {
       }`}
     >
       <p
-        className="py-1.5 px-2 cursor-pointer"
+        className="py-1.5 px-2 sm:cursor-pointer"
         onClick={() => handelSpeak(selectedWord)}
       >
         Listen
