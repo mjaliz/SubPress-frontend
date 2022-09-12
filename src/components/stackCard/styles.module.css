@@ -1,0 +1,19 @@
+.deck {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+}
+
+.deck > div {
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18rem;
+  height: 24rem;
+  will-change: transform;
+}
