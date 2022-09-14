@@ -1,7 +1,9 @@
 .deck {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  bottom: 0;
+  margin-left: calc(50% - 11rem);
   will-change: transform;
   display: flex;
   align-items: center;
@@ -14,6 +16,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   width: 22rem;
-  height: 26rem;
+  height: 50vh;
   will-change: transform;
 }

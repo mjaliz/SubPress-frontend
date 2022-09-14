@@ -20,7 +20,7 @@ export default function StackCard({ cards }) {
   }));
 
   return (
-    <>
+    <div className="relative h-[52vh] my-auto">
       {props.map(({ x, y }, i) => (
         <animated.div className={styles.deck} key={i} style={{ x, y }}>
           <FlippedCard
@@ -30,6 +30,6 @@ export default function StackCard({ cards }) {
           />
         </animated.div>
       ))}
-    </>
+    </div>
   );
 }

@@ -40,7 +40,7 @@ export default function FlashCard({
     setShowPlayIcon(true);
   };
   return (
-    <div className="mx-auto bg-white w-[22rem] h-[26rem] rounded-xl shadow-md overflow-hidden flex flex-col">
+    <div className="mx-auto bg-white w-[22rem] h-[50vh] rounded-xl shadow-md overflow-hidden flex flex-col">
       <div className="relative w-full">
         <video ref={videoRef} onPlay={handleOnPlay} onPause={handleOnPause}>
           <source

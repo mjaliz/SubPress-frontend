@@ -7,6 +7,7 @@ import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
 import WordListIcon from "./WordListIcon";
 import WordListCard from "./WordListCard";
+import { useLocation } from "react-router-dom";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -27,6 +28,8 @@ function VideoPlayer({ src }) {
   const trackRef = useRef(null);
   const subtitlesRef = useRef(null);
   const scrollRefs = useRef([]);
+
+  const { pathname } = useLocation();
 
   scrollRefs.current = [...Array(subtitles.length).keys()].map(
     (_, i) => scrollRefs.current[i] ?? createRef()
@@ -82,7 +85,7 @@ function VideoPlayer({ src }) {
   const handleSubtitleClick = (word, wordId, subtitleId) => {
     setTimeout(() => {
       handelSpeak(word[0]);
-    }, 700);
+    }, 500);
 
     const selectedSubtitle = {
       word,
@@ -128,7 +131,7 @@ function VideoPlayer({ src }) {
           className="md:h-[50vh]"
           onPlay={handleVideoPlay}
         >
-          <source src={src} type="video/mp4" />
+          <source src={`/video/${pathname}`} type="video/mp4" />
 
           <track
             ref={trackRef}
@@ -174,7 +177,7 @@ function VideoPlayer({ src }) {
           )}
         </div>
       </div>
-      <div ref={subtitlesRef} className="bg-bg-dark2 -z-10">
+      <div ref={subtitlesRef} className="bg-bg-dark2">
         {subtitles.map((subtitle, index) => (
           <p
             ref={scrollRefs.current[index]}

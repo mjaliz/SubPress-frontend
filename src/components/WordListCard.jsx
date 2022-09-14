@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import WordOptionCard from "./WordOptionCard";
 
 export default function WordListCard({ open, onOpenChange, selectedWordList }) {
@@ -83,9 +84,12 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
             </div>
           ))}
         </div>
-        <button className="bg-text-primary h-12 text-white rounded-3xl shadow-lg mt-auto">
-          Review Flashcards
-        </button>
+        <Link
+          to="/flashcard"
+          className="w-full bg-text-primary h-12 text-white rounded-3xl shadow-lg mt-auto flex flex-row justify-center"
+        >
+          <p className="self-center">Review Flashcards</p>
+        </Link>
       </div>
     </div>
   );

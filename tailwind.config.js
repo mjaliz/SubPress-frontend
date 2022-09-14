@@ -28,6 +28,7 @@ module.exports = {
         "text-primary": "#ff6d00",
         "text-secondary": "#66a1f9",
         "text-selected": "#cc6213",
+        "primary-light": "#fddcc9",
       },
     },
   },
