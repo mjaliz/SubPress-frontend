@@ -12,7 +12,7 @@ import { useLocation } from "react-router-dom";
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
 
-function VideoPlayer({ src }) {
+function VideoPlayer() {
   const [videoContainerElement, setVideoContainerElement] = useState(null);
   const [videoElement, setVideoElement] = useState(null);
   const [trackElement, setTrackElement] = useState(null);
@@ -31,19 +31,6 @@ function VideoPlayer({ src }) {
 
   const { pathname } = useLocation();
 
-  scrollRefs.current = [...Array(subtitles.length).keys()].map(
-    (_, i) => scrollRefs.current[i] ?? createRef()
-  );
-
-  const scrollSmoothHandler = (index) => {
-    const element = scrollRefs.current[index].current;
-    const yOffset = -videoContainerElement.offsetHeight;
-    const y =
-      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({ top: y, behavior: "smooth" });
-    // scrollRefs.current[index].current.scrollIntoView({ behavior: "smooth" });
-  };
-
   useEffect(() => {
     setVideoContainerElement(videoContainerRef.current);
     setVideoElement(videoRef.current);
@@ -51,9 +38,13 @@ function VideoPlayer({ src }) {
     setVideoWorks(!!document.createElement("video").canPlayType);
   }, []);
 
-  useEffect(() => {
-    setVideoContainerElement(videoContainerRef.current);
-  }, [subtitleId]);
+  scrollRefs.current = [...Array(subtitles.length).keys()].map(
+    (_, i) => scrollRefs.current[i] ?? createRef()
+  );
+
+  const scrollSmoothHandler = (index) => {
+    scrollRefs.current[index].current.scrollIntoView({ behavior: "smooth" });
+  };
 
   if (videoWorks) {
     videoContainerElement.controls = true;
@@ -112,7 +103,7 @@ function VideoPlayer({ src }) {
   };
 
   return (
-    <>
+    <div className="bg-bg-dark2 h-screen">
       <div ref={videoContainerRef} className="sticky top-0">
         {selectedWordList.length !== 0 && (
           <WordListIcon
@@ -124,10 +115,8 @@ function VideoPlayer({ src }) {
           ref={videoRef}
           id="video"
           controls
-          preload="metadata"
-          poster="poster.jpg"
           width="100%"
-          height="100%"
+          preload="metadata"
           className="md:h-[50vh]"
           onPlay={handleVideoPlay}
         >
@@ -144,7 +133,7 @@ function VideoPlayer({ src }) {
         <div className="bg-bg-dark1 min-h-[8vh] py-1">
           {subtitleId && (
             <>
-              <div className="flex flex-row flex-wrap justify-center py-1 px-16">
+              <div className="flex flex-row flex-wrap justify-center py-1 px-14">
                 {subtitles[subtitleId - 1]["word_tag"].map((word, index) => (
                   <div
                     className="text-[#fff] font-bold px-0.5 py-0.5 relative"
@@ -177,7 +166,10 @@ function VideoPlayer({ src }) {
           )}
         </div>
       </div>
-      <div ref={subtitlesRef} className="bg-bg-dark2">
+      <div
+        ref={subtitlesRef}
+        className={`bg-bg-dark2 max-h-[55vh] overflow-auto`}
+      >
         {subtitles.map((subtitle, index) => (
           <p
             ref={scrollRefs.current[index]}
@@ -196,7 +188,7 @@ function VideoPlayer({ src }) {
         onOpenChange={handleWordDetailOpenChange}
         selectedWordList={selectedWordList}
       />
-    </>
+    </div>
   );
 }
 
