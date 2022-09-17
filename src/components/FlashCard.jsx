@@ -44,7 +44,7 @@ export default function FlashCard({
       <div className="relative w-full">
         <video ref={videoRef} onPlay={handleOnPlay} onPause={handleOnPause}>
           <source
-            src={`http://192.168.1.5:8000/video/${src.id}#t=${src.start},${src.end}`}
+            src={`http://192.168.1.6:8000/video${src.title}#t=${src.start},${src.end}`}
             type="video/mp4"
           />
         </video>

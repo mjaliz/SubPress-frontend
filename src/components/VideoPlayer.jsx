@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef, createRef } from "react";
+import axios from "axios";
 
 import "../main.css";
 
@@ -73,7 +74,7 @@ function VideoPlayer() {
     window.speechSynthesis.speak(msg);
   };
 
-  const handleSubtitleClick = (word, wordId, subtitleId) => {
+  const handleSubtitleClick = async (word, wordId, subtitleId) => {
     setTimeout(() => {
       handelSpeak(word[0]);
     }, 500);
@@ -86,6 +87,27 @@ function VideoPlayer() {
     setSelectedSentence([...selectedSentence, selectedSubtitle]);
     setWordCardId(wordId);
     togglePlay();
+    const startTime = subtitles[subtitleId - 1].startTime;
+    const endTime = subtitles[subtitleId - 1].endTime;
+    try {
+      const result = await axios.post(
+        "http://192.168.1.6:8000/users/selectedWord",
+        {
+          flashCard: {
+            src: {
+              title: pathname,
+              startTime,
+              endTime,
+            },
+            front: [word[0], subtitles[subtitleId - 1].text],
+            back: ["translate", subtitlesFa[subtitleId - 1].text],
+          },
+        }
+      );
+      console.log(result);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const handleListSubtitleClicked = (index) => {

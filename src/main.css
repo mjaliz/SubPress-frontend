@@ -1103,100 +1103,32 @@ video {
   height: 4rem;
 }
 
-.h-\[26rem\] {
-  height: 26rem;
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .h-3\/5 {
   height: 60%;
 }
 
-.h-\[50vh\] {
-  height: 50vh;
-}
-
 .h-\[30vh\] {
   height: 30vh;
-}
-
-.h-\[28rem\] {
-  height: 28rem;
-}
-
-.h-\[52vh\] {
-  height: 52vh;
-}
-
-.h-\[15vh\] {
-  height: 15vh;
 }
 
 .h-\[16vh\] {
   height: 16vh;
 }
 
+.h-\[52vh\] {
+  height: 52vh;
+}
+
 .max-h-\[30vh\] {
   max-height: 30vh;
 }
 
-.max-h-\[50vh\] {
-  max-height: 50vh;
-}
-
-.max-h-\[60vh\] {
-  max-height: 60vh;
-}
-
-.max-h-\[65vh\] {
-  max-height: 65vh;
-}
-
-.max-h-\[66vh\] {
-  max-height: 66vh;
-}
-
 .max-h-\[55vh\] {
   max-height: 55vh;
-}
-
-.max-h-\[45vh\] {
-  max-height: 45vh;
-}
-
-.max-h-\[40vh\] {
-  max-height: 40vh;
-}
-
-.max-h-\[calc\(100vh_-_\$\{videoElementHeight\}px\)\] {
-  max-height: calc(100vh - ${videoElementHeight}px);
-}
-
-.max-h-\[calc\(100vh_-_40vh\)\] {
-  max-height: calc(100vh - 40vh);
-}
-
-.max-h-\[calc\(\$\{screenHeight\}px_-_\$\{videoElementHeight\}px\)\] {
-  max-height: calc(${screenHeight}px - ${videoElementHeight}px);
-}
-
-.max-h-\[calc\(\$\{screenHeight\}_-_\$\{videoElementHeight\}\)px\] {
-  max-height: calc(${screenHeight} - ${videoElementHeight})px;
-}
-
-.max-h-\[calc\(\$\{screenHeight\}_-_\$\{videoElementHeight\}\)\] {
-  max-height: calc(${screenHeight} - ${videoElementHeight});
-}
-
-.max-h-\[calc\(100vh_-_20vh\)\] {
-  max-height: calc(100vh - 20vh);
-}
-
-.max-h-\[calc\(1000px_-_200px\)\] {
-  max-height: calc(1000px - 200px);
-}
-
-.max-h-\[49vh\] {
-  max-height: 49vh;
 }
 
 .min-h-screen {

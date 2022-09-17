@@ -1,27 +1,24 @@
+import axios from "axios";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import StackCard from "../components/stackCard/StackCard";
 
 class FlashCardScreen extends Component {
-  cards = [
-    {
-      src: { id: "demo2.mp4", start: "220", end: "222" },
-      front: ["Night", "Is it night yet?"],
-      back: ["شب", "هنوز شب نشده؟"],
-    },
-    {
-      src: { id: "demo2.mp4", start: "50", end: "53" },
-      front: ["New", "I'm new Eap"],
-      back: ["جدید", "من ایپ جدید هستم"],
-    },
-    {
-      src: { id: "demo2.mp4", start: "17", end: "22" },
-      front: ["New", "I'm new Eap"],
-      back: ["جدید", "من ایپ جدید هستم"],
-    },
-  ];
+  state = {
+    flashCards: [],
+  };
+  async componentDidMount() {
+    try {
+      const { data } = await axios.get(
+        "http://192.168.1.6:8000/users/selectedWord"
+      );
+      console.log(data);
+      this.setState({ flashCards: data["flashCards"] });
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
-  state = {};
   render() {
     return (
       <div className="bg-bg-gray2 w-screen h-screen flex flex-col">
@@ -70,7 +67,7 @@ class FlashCardScreen extends Component {
             <div className="w-1/4 h-full rounded-xl bg-text-primary"></div>
           </div>
         </div>
-        <StackCard cards={this.cards} />
+        <StackCard cards={this.state.flashCards} />
         <div className="w-full flex flex-row justify-around mt-auto">
           <div className="flex flex-col justify-around w-20 h-[16vh]">
             <div className="bg-white shadow-xl w-20 h-20 rounded-full flex flex-col justify-center">
