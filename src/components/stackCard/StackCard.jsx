@@ -3,6 +3,9 @@ import { useSprings, animated } from "@react-spring/web";
 
 import styles from "./styles.module.css";
 import FlippedCard from "../FlippedCard";
+import { useDispatch, useSelector } from "react-redux";
+import { getSelectedFlashCards, loadFlashCards } from "../../store/flashCard";
+import { useEffect } from "react";
 
 const to = (i) => ({
   x: 0,
@@ -13,7 +16,16 @@ const to = (i) => ({
 });
 const from = (_i) => ({ x: 0, rot: 0, scale: 1.5, y: -1000 });
 
-export default function StackCard({ cards }) {
+export default function StackCard() {
+  const flashCards = useSelector(getSelectedFlashCards);
+  const cards = flashCards.slice(-3);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadFlashCards());
+  }, [dispatch]);
+
   const [props] = useSprings(cards.length, (i) => ({
     ...to(i),
     from: from(i),
@@ -24,9 +36,9 @@ export default function StackCard({ cards }) {
       {props.map(({ x, y }, i) => (
         <animated.div className={styles.deck} key={i} style={{ x, y }}>
           <FlippedCard
+            src={cards[i].src}
             front={cards[i].front}
             back={cards[i].back}
-            src={cards[i].src}
           />
         </animated.div>
       ))}

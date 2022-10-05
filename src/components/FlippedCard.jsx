@@ -13,11 +13,10 @@ export default function FlippedCard({ src, front, back }) {
   });
   const handleFillipCard = () => {
     set((state) => !state);
-    console.log("clicked");
   };
 
   return (
-    <div className={styles.container}>
+    <>
       <a.div
         className={`${styles.c}`}
         style={{ opacity: opacity.to((o) => 1 - o), transform }}
@@ -46,6 +45,6 @@ export default function FlippedCard({ src, front, back }) {
           flipped={flipped}
         />
       </a.div>
-    </div>
+    </>
   );
 }

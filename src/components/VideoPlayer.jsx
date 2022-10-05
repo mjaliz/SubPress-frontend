@@ -87,11 +87,11 @@ function VideoPlayer() {
     setSelectedSentence([...selectedSentence, selectedSubtitle]);
     setWordCardId(wordId);
     togglePlay();
-    const startTime = subtitles[subtitleId - 1].startTime;
-    const endTime = subtitles[subtitleId - 1].endTime;
+    const startTime = subtitles[subtitleId - 1].startTime.toFixed(3);
+    const endTime = subtitles[subtitleId - 1].endTime.toFixed(3);
     try {
       const result = await axios.post(
-        "http://192.168.1.6:8000/users/selectedWord",
+        "http://localhost:8000/api/users/selectedWord",
         {
           flashCard: {
             src: {

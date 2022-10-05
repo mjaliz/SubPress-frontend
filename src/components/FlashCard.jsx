@@ -3,22 +3,14 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
 
-export default function FlashCard({
-  src,
-  word,
-  wordTranslate,
-  sentence,
-  sentenceTranslate,
-  onClick,
-  flipped,
-}) {
+export default function FlashCard({ src, word, sentence, onClick, flipped }) {
   const [videoElement, setVideoElement] = useState(null);
   const [showPlayIcon, setShowPlayIcon] = useState(true);
   const videoRef = useRef(null);
 
   useEffect(() => {
     setVideoElement(videoRef.current);
-  }, []);
+  }, [src]);
 
   const togglePlay = () => {
     if (videoElement.paused || videoElement.ended) {
@@ -44,7 +36,7 @@ export default function FlashCard({
       <div className="relative w-full">
         <video ref={videoRef} onPlay={handleOnPlay} onPause={handleOnPause}>
           <source
-            src={`http://192.168.1.6:8000/video${src.title}#t=${src.start},${src.end}`}
+            src={`http://localhost:8000/video${src.title}#t=${src.start},${src.end}`}
             type="video/mp4"
           />
         </video>
