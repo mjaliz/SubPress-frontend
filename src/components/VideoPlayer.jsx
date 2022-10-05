@@ -1,14 +1,15 @@
 import React, { useEffect, useState, useRef, createRef } from "react";
+import { useLocation } from "react-router-dom";
 import axios from "axios";
 
 import "../main.css";
-
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
 import WordListIcon from "./WordListIcon";
 import WordListCard from "./WordListCard";
-import { useLocation } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { getCurrentUser } from "../store/user";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -24,6 +25,9 @@ function VideoPlayer() {
   const [selectedWordList, setSelectedWordList] = useState([]);
   const [wordDetailOpen, setWordDetailsOpen] = useState(false);
 
+  const state = useSelector((state) => state);
+  const dispatch = useDispatch();
+
   const videoContainerRef = useRef(null);
   const videoRef = useRef(null);
   const trackRef = useRef(null);
@@ -37,7 +41,8 @@ function VideoPlayer() {
     setVideoElement(videoRef.current);
     setTrackElement(trackRef.current);
     setVideoWorks(!!document.createElement("video").canPlayType);
-  }, []);
+    dispatch(getCurrentUser());
+  }, [dispatch]);
 
   scrollRefs.current = [...Array(subtitles.length).keys()].map(
     (_, i) => scrollRefs.current[i] ?? createRef()
@@ -102,6 +107,7 @@ function VideoPlayer() {
             front: [word[0], subtitles[subtitleId - 1].text],
             back: ["translate", subtitlesFa[subtitleId - 1].text],
           },
+          userId: state.user.currentUser,
         }
       );
       console.log(result);

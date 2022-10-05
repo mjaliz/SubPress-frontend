@@ -40,15 +40,15 @@ export default slice.reducer;
 
 const url = "/users/selectedWord";
 
-export const loadFlashCards = () => (dispatch, getState) => {
+export const loadFlashCards = (userId) => (dispatch, getState) => {
   // const { lastFetch } = getState().entities.flashCards;
 
   // const diffInMinutes = moment().diff(moment(lastFetch), "minutes");
   // if (diffInMinutes < 1) return;
-
   return dispatch(
     apiCallBegan({
       url,
+      params: { userId },
       onStart: flashCardsRequested.type,
       onSuccess: flashCardsReceived.type,
       onError: flashCardsRequestFailed.type,

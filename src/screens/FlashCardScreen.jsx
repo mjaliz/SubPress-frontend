@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { loadFlashCards, makeFlashCardKnown } from "../store/flashCard";
 import FlippedCard from "../components/FlippedCard";
+import { getCurrentUser } from "../store/user";
 
 function FlashCardScreen() {
   // const [flashCards, setFlashCards] = useState([]);
@@ -11,22 +12,26 @@ function FlashCardScreen() {
   // const [notSureFlashCards, setNotSureFlashCards] = useState([]);
 
   const dispatch = useDispatch();
-  const { list } = useSelector((state) => state.entities.flashCards);
+  const { user, entities } = useSelector((state) => state);
 
-  const flashCards = list.flashCards?.filter(
+  const flashCards = entities.flashCards.list.flashCards?.filter(
     (flashCard) => flashCard.status === "selected"
   );
 
   useEffect(() => {
-    dispatch(loadFlashCards());
+    dispatch(getCurrentUser());
   }, [dispatch]);
+
+  useEffect(() => {
+    if (user.currentUser && user.currentUser?._id)
+      dispatch(loadFlashCards(user.currentUser._id));
+  }, [dispatch, user]);
 
   const handleKnownFlashCard = () => {
     const id = flashCards[flashCards.length - 1]._id;
     dispatch(makeFlashCardKnown(id, "known"));
   };
 
-  console.log(flashCards);
   return (
     <>
       {!flashCards ? (

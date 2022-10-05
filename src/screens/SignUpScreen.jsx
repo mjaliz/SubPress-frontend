@@ -2,11 +2,30 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Formik } from "formik";
 
+import * as userService from "../services/userService";
+import auth from "../services/authService";
+import { useDispatch } from "react-redux";
+import { signUp } from "../store/user";
+
 export default function SignUpScreen() {
   const [showPassword, setShowPassword] = useState(false);
+  const dispatch = useDispatch();
 
   const handleShowPassword = () => {
     setShowPassword(!showPassword);
+  };
+
+  const doSubmit = async (user) => {
+    try {
+      console.log(user);
+      dispatch(signUp(user));
+      // const response = await userService.register(user);
+      // console.log(response);
+      // auth.loginWithJwt(response.headers["x-auth-token"]);
+      // window.location = "/";
+    } catch (ex) {
+      console.log(ex);
+    }
   };
   return (
     <div className="bg-bg-dark3 text-white h-screen w-screen flex flex-col py-20 px-4">
@@ -22,7 +41,7 @@ export default function SignUpScreen() {
       </h2>
       <Formik
         initialValues={{ email: "", password: "" }}
-        onSubmit={(values) => console.log(values)}
+        onSubmit={(values) => doSubmit(values)}
       >
         {({ handleSubmit, handleChange, values }) => (
           <form

@@ -1,5 +1,6 @@
 import axios from "axios";
 import * as actions from "../api";
+import config from "../../config.json";
 
 const api =
   ({ dispatch }) =>
@@ -7,7 +8,8 @@ const api =
   async (action) => {
     if (action.type !== actions.apiCallBegan.type) return next(action);
 
-    const { url, method, data, onStart, onSuccess, onError } = action.payload;
+    const { url, method, data, params, onStart, onSuccess, onError } =
+      action.payload;
 
     if (onStart) dispatch({ type: onStart });
 
@@ -15,10 +17,11 @@ const api =
 
     try {
       const response = await axios.request({
-        baseURL: "http://localhost:8000/api",
+        baseURL: config.apiUrl,
         url,
         method,
         data,
+        params,
       });
       // General
       dispatch(actions.apiCallSuccess(response.data));
