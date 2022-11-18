@@ -1144,6 +1144,14 @@ video {
   height: 52vh;
 }
 
+.h-\[14vh\] {
+  height: 14vh;
+}
+
+.h-\[12vh\] {
+  height: 12vh;
+}
+
 .max-h-\[30vh\] {
   max-height: 30vh;
 }

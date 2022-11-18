@@ -10,6 +10,7 @@ import WordListIcon from "./WordListIcon";
 import WordListCard from "./WordListCard";
 import { useDispatch, useSelector } from "react-redux";
 import { getCurrentUser } from "../store/user";
+import config from "../config.json";
 
 const subtitles = subtitleFile;
 const subtitlesFa = subtitleFaFile;
@@ -96,7 +97,7 @@ function VideoPlayer() {
     const endTime = subtitles[subtitleId - 1].endTime.toFixed(3);
     try {
       const result = await axios.post(
-        "http://localhost:8000/api/users/selectedWord",
+        `${config.apiUrl}/${config.usersUrl}/selectedWord`,
         {
           flashCard: {
             src: {

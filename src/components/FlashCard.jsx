@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
+import config from "../config.json";
 
 export default function FlashCard({ src, word, sentence, onClick, flipped }) {
   const [videoElement, setVideoElement] = useState(null);
@@ -24,7 +25,7 @@ export default function FlashCard({ src, word, sentence, onClick, flipped }) {
     setShowPlayIcon(false);
     setTimeout(() => {
       videoElement.pause();
-    }, (src.end - src.start) * 1000);
+    }, (src.end - src.start + 0.1) * 1000);
   };
 
   const handleOnPause = () => {
@@ -36,7 +37,7 @@ export default function FlashCard({ src, word, sentence, onClick, flipped }) {
       <div className="relative w-full">
         <video ref={videoRef} onPlay={handleOnPlay} onPause={handleOnPause}>
           <source
-            src={`http://localhost:8000/video${src.title}#t=${src.start},${src.end}`}
+            src={`${config.apiUrl}/video${src.title}#t=${src.start},${src.end}`}
             type="video/mp4"
           />
         </video>

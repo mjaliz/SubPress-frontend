@@ -85,7 +85,7 @@ export default function WordListCard({ open, onOpenChange, selectedWordList }) {
           ))}
         </div>
         <Link
-          to="/flashcard"
+          to="/content/flashcard"
           className="w-full bg-text-primary h-12 text-white rounded-3xl shadow-lg mt-auto flex flex-row justify-center"
         >
           <p className="self-center">Review Flashcards</p>
