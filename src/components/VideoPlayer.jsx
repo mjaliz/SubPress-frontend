@@ -149,7 +149,7 @@ function VideoPlayer() {
           className="md:h-[50vh]"
           onPlay={handleVideoPlay}
         >
-          <source src={`/video/${pathname}`} type="video/mp4" />
+          <source src={`${config.apiUrl}/video${pathname}`} type="video/mp4" />
 
           <track
             ref={trackRef}

@@ -20,7 +20,7 @@ function App() {
         <Route path="/content/*" element={<ContentScreen />} />
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/signin" element={<SignInScreen />} />
-        <Route path="/" element={<Navigate to="/demo2.mp4" replace />} />
+        <Route path="/" element={<Navigate to="/signup" replace />} />
       </Routes>
     </Provider>
   );

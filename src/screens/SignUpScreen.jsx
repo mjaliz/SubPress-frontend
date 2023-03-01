@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Formik } from "formik";
 
-import * as userService from "../services/userService";
-import auth from "../services/authService";
 import { useDispatch } from "react-redux";
 import { signUp } from "../store/user";
 
@@ -19,10 +17,6 @@ export default function SignUpScreen() {
     try {
       console.log(user);
       dispatch(signUp(user));
-      // const response = await userService.register(user);
-      // console.log(response);
-      // auth.loginWithJwt(response.headers["x-auth-token"]);
-      // window.location = "/";
     } catch (ex) {
       console.log(ex);
     }
@@ -56,6 +50,7 @@ export default function SignUpScreen() {
               type="email"
               value={values.email}
               onChange={handleChange}
+              autoComplete="off"
             />
             <div className="flex flex-row bg-bg-dark4 h-14 my-2 rounded-lg px-3">
               <input
@@ -65,6 +60,7 @@ export default function SignUpScreen() {
                 type={showPassword ? "text" : "password"}
                 value={values.password}
                 onChange={handleChange}
+                autoComplete="off"
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
