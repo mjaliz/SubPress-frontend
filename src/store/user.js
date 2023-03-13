@@ -1,4 +1,4 @@
-import { createSlice, createSelector } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { apiCallBegan } from "./api";
 
 import config from "../config.json";
@@ -20,7 +20,7 @@ const slice = createSlice({
       console.log(action);
       user.loading = false;
       localStorage.setItem(tokenKey, action.payload.token);
-      // window.location = "/";
+      window.location = "/demo2.mp4";
     },
     userSignUpFailed: (user, action) => {
       user.loading = false;

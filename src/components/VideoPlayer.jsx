@@ -148,10 +148,7 @@ function VideoPlayer() {
           className="md:h-[50vh]"
           onPlay={handleVideoPlay}
         >
-          <source
-            src={`${config.apiUrl}/video/croods/S1E1.mp4`}
-            type="video/mp4"
-          />
+          <source src={`${config.apiUrl}/video${pathname}`} type="video/mp4" />
 
           <track
             ref={trackRef}
