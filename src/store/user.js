@@ -20,7 +20,7 @@ const slice = createSlice({
       console.log(action);
       user.loading = false;
       localStorage.setItem(tokenKey, action.payload.token);
-      window.location = "/";
+      // window.location = "/";
     },
     userSignUpFailed: (user, action) => {
       user.loading = false;

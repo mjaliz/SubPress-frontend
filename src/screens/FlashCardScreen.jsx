@@ -15,7 +15,7 @@ function FlashCardScreen() {
   const { user, entities } = useSelector((state) => state);
 
   const flashCards = entities.flashCards.list.flashCards?.filter(
-    (flashCard) => flashCard.status === "selected"
+    (flashCard) => flashCard.status === 0
   );
 
   useEffect(() => {
@@ -29,7 +29,7 @@ function FlashCardScreen() {
 
   const handleKnownFlashCard = () => {
     const id = flashCards[flashCards.length - 1]._id;
-    dispatch(makeFlashCardKnown(id, "known"));
+    dispatch(makeFlashCardKnown(id, 1));
   };
 
   const activeClassName = "text-black font-semibold";

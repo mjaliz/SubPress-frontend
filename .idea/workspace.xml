@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d7453f9-709a-4e93-9e04-556c29464397" name="Changes" comment="">
+    <list default="true" id="e0cda8e2-9f4d-4cb5-a211-6f86ea7db74b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlashCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlashCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPlayer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/FlashCardScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/FlashCardScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/WordListScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WordListScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/httpServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/httpServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/flashCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/flashCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +33,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2EOWpETWAqtFyjQ1CUFZr5UL2gS" />
+  <component name="ProjectId" id="2KxInrvIoVVR89Ulz7vSTguV5Dh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Project.color": "5b3707",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "G:/MyProjects/SubPress/backend",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -46,29 +64,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d7453f9-709a-4e93-9e04-556c29464397" name="Changes" comment="" />
-      <created>1662467291335</created>
+      <changelist id="e0cda8e2-9f4d-4cb5-a211-6f86ea7db74b" name="Changes" comment="" />
+      <created>1674909976926</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662467291335</updated>
-      <workItem from="1662467300891" duration="91000" />
-      <workItem from="1662570092528" duration="2173000" />
-      <workItem from="1663301761124" duration="10000" />
+      <updated>1674909976926</updated>
+      <workItem from="1674909978084" duration="2796000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

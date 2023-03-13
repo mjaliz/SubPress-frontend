@@ -37,7 +37,7 @@ export default function FlashCard({ src, word, sentence, onClick, flipped }) {
       <div className="relative w-full">
         <video ref={videoRef} onPlay={handleOnPlay} onPause={handleOnPause}>
           <source
-            src={`${config.apiUrl}/video${src.title}#t=${src.start},${src.end}`}
+            src={`${config.apiUrl}/video/croods/S1E1.mp4#t=${src.start},${src.end}`}
             type="video/mp4"
           />
         </video>

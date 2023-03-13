@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef, createRef } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
 
-import "../main.css";
 import subtitleFile from "../subWithWords.json";
 import subtitleFaFile from "../subtitle-fa.json";
 import WordCard from "./WordCard";
@@ -102,8 +101,8 @@ function VideoPlayer() {
           flashCard: {
             src: {
               title: pathname,
-              startTime,
-              endTime,
+              start: startTime,
+              end: endTime,
             },
             front: [word[0], subtitles[subtitleId - 1].text],
             back: ["translate", subtitlesFa[subtitleId - 1].text],
@@ -149,7 +148,10 @@ function VideoPlayer() {
           className="md:h-[50vh]"
           onPlay={handleVideoPlay}
         >
-          <source src={`/video/${pathname}`} type="video/mp4" />
+          <source
+            src={`${config.apiUrl}/video/croods/S1E1.mp4`}
+            type="video/mp4"
+          />
 
           <track
             ref={trackRef}

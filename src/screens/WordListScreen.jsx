@@ -16,12 +16,12 @@ export default function WordListScreen() {
   };
 
   return (
-    <div className="max-h-[40vh] overflow-y-scroll">
-      <div className="flex flex-col my-4 px-2">
+    <div className="max-h-[85vh] overflow-y-scroll">
+      <div className="flex flex-col my-4 px-5">
         {wordsList.map((word, index) => (
           <div
             key={index}
-            className="py-0.5 my-1 outline outline-2 outline-gray-100 shadow-sm rounded-lg flex flex-row h-10 bg-white "
+            className="py-0.5 my-1.5 outline outline-2 outline-gray-100 shadow-sm rounded-lg flex flex-row h-10 bg-white "
           >
             <div
               className="flex flex-col ml-3 w-full"

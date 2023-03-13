@@ -3,7 +3,7 @@ import http from "./httpServices";
 
 const tokenKey = "token";
 
-http.setJwt(getJwt());
+// http.setJwt(getJwt());
 
 export function loginWithJwt(jwt) {
   localStorage.setItem(tokenKey, jwt);

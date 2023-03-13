@@ -24,7 +24,7 @@ const slice = createSlice({
       const index = flashCards.list.flashCards.findIndex(
         (flashCard) => flashCard._id === action.payload.id
       );
-      flashCards.list.flashCards[index].status = "known";
+      flashCards.list.flashCards[index].status = 1;
     },
   },
 });
@@ -70,5 +70,5 @@ export const makeFlashCardKnown = (id, status) =>
 export const getSelectedFlashCards = createSelector(
   (state) => state.entities.flashCards.list.flashCards,
   (flashCards) =>
-    flashCards.filter((flashCard) => flashCard.status === "selected")
+    flashCards.filter((flashCard) => flashCard.status === 0)
 );
