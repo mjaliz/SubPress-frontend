@@ -28,7 +28,7 @@ export default function SignUpScreen() {
       </h1>
       <h2 className="text-center">
         Already have an account?
-        <Link to="/signin" className="text-text-primary font-bold">
+        <Link to="/sign_in" className="text-text-primary font-bold">
           {" "}
           Sing in
         </Link>
@@ -43,15 +43,17 @@ export default function SignUpScreen() {
             autoComplete="off"
             onSubmit={handleSubmit}
           >
-            <input
-              id="email"
-              className="bg-bg-dark4 h-14 my-2 rounded-lg border-transparent focus:outline-none ring-0 px-3"
-              placeholder="Email"
-              type="email"
-              value={values.email}
-              onChange={handleChange}
-              autoComplete="off"
-            />
+            <div className="flex flex-row bg-bg-dark4 h-14 my-2 rounded-lg px-3">
+              <input
+                id="email"
+                className=" bg-bg-dark4 border-transparent focus:outline-none w-full"
+                placeholder="Email"
+                type="email"
+                value={values.email}
+                onChange={handleChange}
+                autoComplete="off"
+              />
+            </div>
             <div className="flex flex-row bg-bg-dark4 h-14 my-2 rounded-lg px-3">
               <input
                 id="password"
